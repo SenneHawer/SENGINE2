@@ -3,7 +3,7 @@
 Engine::Engine()
 :m_pWindow(nullptr)  
 {
-    m_pWindow = new Window();
+    m_pWindow = new Window(500, 500, "SENGINE@TEST");
     m_pRenderer = new Renderer();
 }
 
@@ -17,8 +17,6 @@ Engine::~Engine(){
 
 void Engine::Init(){
     m_pWindow->Init();
-    m_pWindow->SetTitle("SENGINE2");
-    m_pWindow->SetSize(640, 480);
 
     m_pRenderer->Init();
 

@@ -3,7 +3,7 @@
 class Window{
     public:
 
-        Window();
+        Window(int width, int height, const std::string& title);
         ~Window();
 
         void Init();
@@ -13,9 +13,6 @@ class Window{
         void SwapBuffers();
         bool isShouldClose();
 
-        void  SetTitle(const std::string& title) { m_title = title; }
-        void  SetSize(int width, int height) { m_width = width; m_height = height; }
-        
     private:
 
         GLFWwindow* m_pWindow;

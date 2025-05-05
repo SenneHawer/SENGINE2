@@ -14,13 +14,13 @@ TriangleMesh::TriangleMesh(){
 
     glGenBuffers(1, &m_VBO);
     glBindBuffer(GL_ARRAY_BUFFER, m_VBO);
+
+    glBufferData(GL_ARRAY_BUFFER, data.size() * sizeof(float), data.data(), GL_STATIC_DRAW);
     GLenum error = glGetError();
     if (error != GL_NO_ERROR) {
         std::cout << "Error binding VBO: " << error << std::endl;
     }
-    glBufferData(GL_ARRAY_BUFFER, data.size() * sizeof(float), data.data(), GL_STATIC_DRAW);
-
-    std::cout << "End" << std::endl;
+    std::cout << "End2" << std::endl;
 
     //glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 24, (void*)0);
     //glEnableVertexAttribArray(0);
@@ -39,7 +39,7 @@ TriangleMesh::~TriangleMesh(){
 void TriangleMesh::Draw(){
     //glBindVertexArray(m_VAO);
 
-    glBindBuffer(GL_ARRAY_BUFFER, m_VBO);
+    glBindBuffer(GL_ARRAY_BUFFER, m_VBO);;
 
     //setup vertex position
     glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 6 * sizeof(float), (void*)0);
@@ -54,5 +54,7 @@ void TriangleMesh::Draw(){
 
     glDisableVertexAttribArray(0);
     glDisableVertexAttribArray(1);
+
+    glBindBuffer(GL_ARRAY_BUFFER, 0);
 }
 

@@ -16,8 +16,8 @@ void Renderer::Init(){
     glClearColor(0.25f, 0.5f, 0.75f, 1.0f);
 
     m_shader = make_shader(
-        "../src/shaders/vertex.vert",
-        "../src/shaders/fragment.frag"
+        "./src/shaders/vertex.vert",
+        "./src/shaders/fragment.frag"
     );
 
     m_pTriangle = new TriangleMesh();
@@ -56,8 +56,9 @@ unsigned int Renderer::make_shader(const std::string& vertex_filepath, const std
     glGetProgramiv(shader, GL_LINK_STATUS, &success);
     if (!success){
         char errorLog[1024];
-        glGetShaderInfoLog(shader, 1024, NULL, errorLog);
+        glGetProgramInfoLog(shader, 1024, NULL, errorLog);
         std::cout << "Shader Module compilation error:\n" << errorLog << std::endl;
+        return 0;
     }
 
     for (unsigned int shaderModule : modules){ //delete modules
@@ -74,6 +75,11 @@ unsigned int Renderer::make_module(const std::string& filepath, unsigned int mod
 
     //load file
     file.open(filepath);
+    if (!file.is_open()) {
+        std::cerr << "Error opening shader file: " << filepath << std::endl;
+        return 0; // Return 0 if the file can't be opened
+    }
+
     while(std::getline(file, line)){
         bufferedLines << line << "\n";
     }
@@ -96,6 +102,7 @@ unsigned int Renderer::make_module(const std::string& filepath, unsigned int mod
         char errorLog[1024];
         glGetShaderInfoLog(shaderModule, 1024, NULL, errorLog);
         std::cout << "Shader Module compilation error:\n" <<errorLog << std::endl;
+        return 0;
     }
 
     return shaderModule;

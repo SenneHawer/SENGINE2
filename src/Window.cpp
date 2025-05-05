@@ -1,9 +1,9 @@
 #include "Window.h"
 
-Window::Window()
-:m_width(640),
-m_height(480),
-m_title("SENGINE2"){
+Window::Window(int width, int height, const std::string& title)
+:m_width(width),
+m_height(height),
+m_title(title){
 
 }
 
@@ -20,6 +20,9 @@ void Window::Init(){
         std::cout << "GLFW could't start" << std::endl;
         exit(EXIT_FAILURE);
     }
+
+    glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 2);
+    glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 1);
 
     //create window
     m_pWindow = glfwCreateWindow(m_width, m_height, m_title.c_str(), NULL, NULL);
