@@ -153,6 +153,30 @@ src/Engine.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SENGINE2.dir/build.make CMakeFiles/SENGINE2.dir/src/Engine.cpp.s
 .PHONY : src/Engine.cpp.s
 
+src/Renderer.o: src/Renderer.cpp.o
+.PHONY : src/Renderer.o
+
+# target to build an object file
+src/Renderer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SENGINE2.dir/build.make CMakeFiles/SENGINE2.dir/src/Renderer.cpp.o
+.PHONY : src/Renderer.cpp.o
+
+src/Renderer.i: src/Renderer.cpp.i
+.PHONY : src/Renderer.i
+
+# target to preprocess a source file
+src/Renderer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SENGINE2.dir/build.make CMakeFiles/SENGINE2.dir/src/Renderer.cpp.i
+.PHONY : src/Renderer.cpp.i
+
+src/Renderer.s: src/Renderer.cpp.s
+.PHONY : src/Renderer.s
+
+# target to generate assembly for a file
+src/Renderer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SENGINE2.dir/build.make CMakeFiles/SENGINE2.dir/src/Renderer.cpp.s
+.PHONY : src/Renderer.cpp.s
+
 src/TriangleMesh.o: src/TriangleMesh.cpp.o
 .PHONY : src/TriangleMesh.o
 
@@ -176,6 +200,30 @@ src/TriangleMesh.s: src/TriangleMesh.cpp.s
 src/TriangleMesh.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SENGINE2.dir/build.make CMakeFiles/SENGINE2.dir/src/TriangleMesh.cpp.s
 .PHONY : src/TriangleMesh.cpp.s
+
+src/Window.o: src/Window.cpp.o
+.PHONY : src/Window.o
+
+# target to build an object file
+src/Window.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SENGINE2.dir/build.make CMakeFiles/SENGINE2.dir/src/Window.cpp.o
+.PHONY : src/Window.cpp.o
+
+src/Window.i: src/Window.cpp.i
+.PHONY : src/Window.i
+
+# target to preprocess a source file
+src/Window.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SENGINE2.dir/build.make CMakeFiles/SENGINE2.dir/src/Window.cpp.i
+.PHONY : src/Window.cpp.i
+
+src/Window.s: src/Window.cpp.s
+.PHONY : src/Window.s
+
+# target to generate assembly for a file
+src/Window.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SENGINE2.dir/build.make CMakeFiles/SENGINE2.dir/src/Window.cpp.s
+.PHONY : src/Window.cpp.s
 
 src/glad.o: src/glad.c.o
 .PHONY : src/glad.o
@@ -237,9 +285,15 @@ help:
 	@echo "... src/Engine.o"
 	@echo "... src/Engine.i"
 	@echo "... src/Engine.s"
+	@echo "... src/Renderer.o"
+	@echo "... src/Renderer.i"
+	@echo "... src/Renderer.s"
 	@echo "... src/TriangleMesh.o"
 	@echo "... src/TriangleMesh.i"
 	@echo "... src/TriangleMesh.s"
+	@echo "... src/Window.o"
+	@echo "... src/Window.i"
+	@echo "... src/Window.s"
 	@echo "... src/glad.o"
 	@echo "... src/glad.i"
 	@echo "... src/glad.s"

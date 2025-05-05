@@ -814,4 +814,7 @@ CMakeFiles/SENGINE2.dir/src/Engine.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/path_iterator.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/u8path.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/sstream
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/sstream \
+  /Users/sennehawer/GitKraken\ Repository/SENGINE2/src/Window.h \
+  /Users/sennehawer/GitKraken\ Repository/SENGINE2/src/Renderer.h \
+  /Users/sennehawer/GitKraken\ Repository/SENGINE2/src/TriangleMesh.h

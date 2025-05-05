@@ -1,8 +1,12 @@
 file(REMOVE_RECURSE
   "CMakeFiles/SENGINE2.dir/src/Engine.cpp.o"
   "CMakeFiles/SENGINE2.dir/src/Engine.cpp.o.d"
+  "CMakeFiles/SENGINE2.dir/src/Renderer.cpp.o"
+  "CMakeFiles/SENGINE2.dir/src/Renderer.cpp.o.d"
   "CMakeFiles/SENGINE2.dir/src/TriangleMesh.cpp.o"
   "CMakeFiles/SENGINE2.dir/src/TriangleMesh.cpp.o.d"
+  "CMakeFiles/SENGINE2.dir/src/Window.cpp.o"
+  "CMakeFiles/SENGINE2.dir/src/Window.cpp.o.d"
   "CMakeFiles/SENGINE2.dir/src/glad.c.o"
   "CMakeFiles/SENGINE2.dir/src/glad.c.o.d"
   "CMakeFiles/SENGINE2.dir/src/main.cpp.o"

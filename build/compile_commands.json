@@ -22,5 +22,17 @@
   "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I\"/Users/sennehawer/GitKraken Repository/SENGINE2/dependencies\" -isystem /usr/local/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/SENGINE2.dir/src/Engine.cpp.o -c \"/Users/sennehawer/GitKraken Repository/SENGINE2/src/Engine.cpp\"",
   "file": "/Users/sennehawer/GitKraken Repository/SENGINE2/src/Engine.cpp",
   "output": "CMakeFiles/SENGINE2.dir/src/Engine.cpp.o"
+},
+{
+  "directory": "/Users/sennehawer/GitKraken Repository/SENGINE2/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I\"/Users/sennehawer/GitKraken Repository/SENGINE2/dependencies\" -isystem /usr/local/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/SENGINE2.dir/src/Window.cpp.o -c \"/Users/sennehawer/GitKraken Repository/SENGINE2/src/Window.cpp\"",
+  "file": "/Users/sennehawer/GitKraken Repository/SENGINE2/src/Window.cpp",
+  "output": "CMakeFiles/SENGINE2.dir/src/Window.cpp.o"
+},
+{
+  "directory": "/Users/sennehawer/GitKraken Repository/SENGINE2/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I\"/Users/sennehawer/GitKraken Repository/SENGINE2/dependencies\" -isystem /usr/local/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/SENGINE2.dir/src/Renderer.cpp.o -c \"/Users/sennehawer/GitKraken Repository/SENGINE2/src/Renderer.cpp\"",
+  "file": "/Users/sennehawer/GitKraken Repository/SENGINE2/src/Renderer.cpp",
+  "output": "CMakeFiles/SENGINE2.dir/src/Renderer.cpp.o"
 }
 ]

@@ -14,7 +14,11 @@ add_executable(SENGINE2
     src/TriangleMesh.cpp
     src/Engine.h
     src/Engine.cpp
-)
+    src/Window.h
+    src/Window.cpp
+    src/Renderer.h
+    src/Renderer.cpp
+    )
 
 target_include_directories(SENGINE2 PRIVATE dependencies)
 

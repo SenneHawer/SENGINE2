@@ -1,5 +1,6 @@
-CMakeFiles/SENGINE2.dir/src/main.cpp.o: \
-  /Users/sennehawer/GitKraken\ Repository/SENGINE2/src/main.cpp \
+CMakeFiles/SENGINE2.dir/src/Window.cpp.o: \
+  /Users/sennehawer/GitKraken\ Repository/SENGINE2/src/Window.cpp \
+  /Users/sennehawer/GitKraken\ Repository/SENGINE2/src/Window.h \
   /Users/sennehawer/GitKraken\ Repository/SENGINE2/src/config.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__assert \
@@ -813,8 +814,4 @@ CMakeFiles/SENGINE2.dir/src/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/path_iterator.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/u8path.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/sstream \
-  /Users/sennehawer/GitKraken\ Repository/SENGINE2/src/Engine.h \
-  /Users/sennehawer/GitKraken\ Repository/SENGINE2/src/Window.h \
-  /Users/sennehawer/GitKraken\ Repository/SENGINE2/src/Renderer.h \
-  /Users/sennehawer/GitKraken\ Repository/SENGINE2/src/TriangleMesh.h
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/sstream
