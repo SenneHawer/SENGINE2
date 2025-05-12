@@ -1,7 +1,10 @@
 #version 120
 
 varying vec3 fragmentColor;
+varying vec2 fragmentTexCoord;
+
+uniform sampler2D textureSampler;
 
 void main() {
-    gl_FragColor = vec4(fragmentColor, 1.0);
+    gl_FragColor = texture2D(textureSampler, fragmentTexCoord);
 }
