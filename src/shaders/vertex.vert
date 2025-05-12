@@ -16,5 +16,5 @@ const vec3 colors[4] = vec3[4](
 void main() {
     gl_Position = vec4(vertexPos, 1.0);
     fragmentColor = colors[int(colorIndex)];
-    fragmentTexCoord = 0.5*vertexPos.xy + 0.5;
+    fragmentTexCoord = vec2(0.5f, -0.5f) * (vertexPos.xy + vec2(1,1));
 }
