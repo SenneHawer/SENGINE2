@@ -13,6 +13,10 @@ class Window{
         void SwapBuffers();
         bool isShouldClose();
 
+        //not tested
+        void GetFramebufferSize(int& width, int& height);
+        void SetViewport(int width, int height, int offsetX, int offsetY);
+
     private:
 
         GLFWwindow* m_pWindow;

@@ -1,26 +1,34 @@
 #include "TriangleMesh.h"
 #include <glad/glad.h>
-#include <vector>
 #include <iostream>
 
 TriangleMesh::TriangleMesh(){
-    std::cout << "Start" << std::endl;
-    std::vector<float> data = {
-        -0.5f, -0.5f, 0.0f, 1.0f, 0.0f, 0.0f, //x,y,z,r,g,b
-        0.5f, -0.5f, 0.0f, 0.0f, 1.0f, 0.0f,
-        0.0f, 0.5f, 0.0f, 0.0f, 0.0f, 1.0f
+    std::vector<float> positions = {
+        -1.f, -1.f, 0.0f, 
+        1.f, -1.f, 0.0f, 
+        -1.f, 1.f, 0.0f
     };
+    std::vector<float> colorIndices = {
+        0, 1, 2
+    }; 
     m_vertexCount = 3;
 
-    glGenBuffers(1, &m_VBO);
-    glBindBuffer(GL_ARRAY_BUFFER, m_VBO);
+    m_VBOList.resize(2);
 
-    glBufferData(GL_ARRAY_BUFFER, data.size() * sizeof(float), data.data(), GL_STATIC_DRAW);
+    glGenBuffers(2, m_VBOList.data());
+    glBindBuffer(GL_ARRAY_BUFFER, m_VBOList[0]);
+    glBufferData(GL_ARRAY_BUFFER, positions.size() * sizeof(float), positions.data(), GL_STATIC_DRAW);
     GLenum error = glGetError();
     if (error != GL_NO_ERROR) {
         std::cout << "Error binding VBO: " << error << std::endl;
     }
-    std::cout << "End2" << std::endl;
+
+    glBindBuffer(GL_ARRAY_BUFFER, m_VBOList[1]);
+    glBufferData(GL_ARRAY_BUFFER, colorIndices.size() * sizeof(float), colorIndices.data(), GL_STATIC_DRAW);
+    error = glGetError();
+    if (error != GL_NO_ERROR) {
+        std::cout << "Error binding VBO2: " << error << std::endl;
+    }
 
     //glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 24, (void*)0);
     //glEnableVertexAttribArray(0);
@@ -33,20 +41,22 @@ TriangleMesh::TriangleMesh(){
 
 TriangleMesh::~TriangleMesh(){
     //glDeleteVertexArrays(1, &m_VAO);
-    glDeleteBuffers(1, &m_VBO);
+    glDeleteBuffers(2, m_VBOList.data());
 }
 
 void TriangleMesh::Draw(){
     //glBindVertexArray(m_VAO);
 
-    glBindBuffer(GL_ARRAY_BUFFER, m_VBO);;
+    glBindBuffer(GL_ARRAY_BUFFER, m_VBOList[0]);
 
     //setup vertex position
-    glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 6 * sizeof(float), (void*)0);
+    glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(float), (void*)0);
     glEnableVertexAttribArray(0);
 
+    glBindBuffer(GL_ARRAY_BUFFER, m_VBOList[1]);
+
     //setup vertex color
-    glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, 6 * sizeof(float), (void*)(3 * sizeof(float)));
+    glVertexAttribPointer(1, 1, GL_FLOAT, GL_FALSE, sizeof(float), (void*)0);
     glEnableVertexAttribArray(1);
 
     //draw
@@ -57,4 +67,3 @@ void TriangleMesh::Draw(){
 
     glBindBuffer(GL_ARRAY_BUFFER, 0);
 }
-

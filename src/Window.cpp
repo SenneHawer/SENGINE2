@@ -66,3 +66,11 @@ void Window::SwapBuffers(){
 bool Window::isShouldClose(){
     return glfwWindowShouldClose(m_pWindow);
 }
+
+void Window::GetFramebufferSize(int& width, int& height){
+    glfwGetFramebufferSize(m_pWindow, &width, &height);
+}
+
+void Window::SetViewport(int width, int height, int offsetX = 0, int offsetY = 0){
+    glViewport(offsetX, offsetY, width, height);
+}

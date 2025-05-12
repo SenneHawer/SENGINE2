@@ -57,7 +57,7 @@ unsigned int Renderer::make_shader(const std::string& vertex_filepath, const std
     if (!success){
         char errorLog[1024];
         glGetProgramInfoLog(shader, 1024, NULL, errorLog);
-        std::cout << "Shader Module compilation error:\n" << errorLog << std::endl;
+        std::cout << "RENDERER: Shader compilation error:\n" << errorLog << std::endl;
         return 0;
     }
 
@@ -101,7 +101,7 @@ unsigned int Renderer::make_module(const std::string& filepath, unsigned int mod
     if (!success){
         char errorLog[1024];
         glGetShaderInfoLog(shaderModule, 1024, NULL, errorLog);
-        std::cout << "Shader Module compilation error:\n" <<errorLog << std::endl;
+        std::cout << "RENDERER: Shader Module compilation error:\n" <<errorLog << std::endl;
         return 0;
     }
 
