@@ -9,6 +9,6 @@ class TriangleMesh{
     void Draw();
 
     private:
-    unsigned int m_vertexCount;
+    unsigned int m_EBO, m_vertexCount;
     std::vector<unsigned int> m_VBOList;
 };
