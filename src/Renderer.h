@@ -1,5 +1,6 @@
 #include "config.h"
 #include "TriangleMesh.h"
+#include "Material.h"
 
 class Renderer{
     public:
@@ -13,6 +14,7 @@ class Renderer{
         unsigned int m_shader;
 
         TriangleMesh* m_pTriangle;
+        Material* m_pMaterial;
         
         unsigned int make_shader(const std::string& vertex_filepath, const std::string& fragment_filepath);
         unsigned int make_module(const std::string& filepath, unsigned int module_type);

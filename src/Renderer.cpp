@@ -8,6 +8,8 @@ Renderer::~Renderer(){
     glDeleteShader(m_shader);
     delete m_pTriangle;
     m_pTriangle = nullptr;
+    delete m_pMaterial;
+    m_pMaterial = nullptr;
 }
 
 void Renderer::Init(){
@@ -21,6 +23,7 @@ void Renderer::Init(){
     );
 
     m_pTriangle = new TriangleMesh();
+    m_pMaterial = new Material("img/texture.png");
 
 }
 
@@ -30,6 +33,7 @@ void Renderer::Render(){
     glUseProgram(m_shader);
 
     //DRAW OBJECTS
+    m_pMaterial->Use();
     m_pTriangle->Draw();
 
 }

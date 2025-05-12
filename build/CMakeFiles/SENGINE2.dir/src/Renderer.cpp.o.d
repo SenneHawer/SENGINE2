@@ -1,4 +1,5 @@
 CMakeFiles/SENGINE2.dir/src/Renderer.cpp.o: \
+  /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/share/asan_ignorelist.txt \
   /Users/sennehawer/GitKraken\ Repository/SENGINE2/src/Renderer.cpp \
   /Users/sennehawer/GitKraken\ Repository/SENGINE2/src/Renderer.h \
   /Users/sennehawer/GitKraken\ Repository/SENGINE2/src/config.h \
@@ -815,4 +816,5 @@ CMakeFiles/SENGINE2.dir/src/Renderer.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/u8path.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/sstream \
-  /Users/sennehawer/GitKraken\ Repository/SENGINE2/src/TriangleMesh.h
+  /Users/sennehawer/GitKraken\ Repository/SENGINE2/src/TriangleMesh.h \
+  /Users/sennehawer/GitKraken\ Repository/SENGINE2/src/Material.h

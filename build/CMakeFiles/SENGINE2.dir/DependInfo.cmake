@@ -10,9 +10,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/sennehawer/GitKraken Repository/SENGINE2/src/glad.c" "CMakeFiles/SENGINE2.dir/src/glad.c.o" "gcc" "CMakeFiles/SENGINE2.dir/src/glad.c.o.d"
   "/Users/sennehawer/GitKraken Repository/SENGINE2/src/Engine.cpp" "CMakeFiles/SENGINE2.dir/src/Engine.cpp.o" "gcc" "CMakeFiles/SENGINE2.dir/src/Engine.cpp.o.d"
+  "/Users/sennehawer/GitKraken Repository/SENGINE2/src/Material.cpp" "CMakeFiles/SENGINE2.dir/src/Material.cpp.o" "gcc" "CMakeFiles/SENGINE2.dir/src/Material.cpp.o.d"
   "/Users/sennehawer/GitKraken Repository/SENGINE2/src/Renderer.cpp" "CMakeFiles/SENGINE2.dir/src/Renderer.cpp.o" "gcc" "CMakeFiles/SENGINE2.dir/src/Renderer.cpp.o.d"
   "/Users/sennehawer/GitKraken Repository/SENGINE2/src/TriangleMesh.cpp" "CMakeFiles/SENGINE2.dir/src/TriangleMesh.cpp.o" "gcc" "CMakeFiles/SENGINE2.dir/src/TriangleMesh.cpp.o.d"
   "/Users/sennehawer/GitKraken Repository/SENGINE2/src/Window.cpp" "CMakeFiles/SENGINE2.dir/src/Window.cpp.o" "gcc" "CMakeFiles/SENGINE2.dir/src/Window.cpp.o.d"
+  "/Users/sennehawer/GitKraken Repository/SENGINE2/src/config.cpp" "CMakeFiles/SENGINE2.dir/src/config.cpp.o" "gcc" "CMakeFiles/SENGINE2.dir/src/config.cpp.o.d"
   "/Users/sennehawer/GitKraken Repository/SENGINE2/src/main.cpp" "CMakeFiles/SENGINE2.dir/src/main.cpp.o" "gcc" "CMakeFiles/SENGINE2.dir/src/main.cpp.o.d"
   )
 

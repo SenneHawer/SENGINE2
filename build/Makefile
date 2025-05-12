@@ -153,6 +153,30 @@ src/Engine.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SENGINE2.dir/build.make CMakeFiles/SENGINE2.dir/src/Engine.cpp.s
 .PHONY : src/Engine.cpp.s
 
+src/Material.o: src/Material.cpp.o
+.PHONY : src/Material.o
+
+# target to build an object file
+src/Material.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SENGINE2.dir/build.make CMakeFiles/SENGINE2.dir/src/Material.cpp.o
+.PHONY : src/Material.cpp.o
+
+src/Material.i: src/Material.cpp.i
+.PHONY : src/Material.i
+
+# target to preprocess a source file
+src/Material.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SENGINE2.dir/build.make CMakeFiles/SENGINE2.dir/src/Material.cpp.i
+.PHONY : src/Material.cpp.i
+
+src/Material.s: src/Material.cpp.s
+.PHONY : src/Material.s
+
+# target to generate assembly for a file
+src/Material.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SENGINE2.dir/build.make CMakeFiles/SENGINE2.dir/src/Material.cpp.s
+.PHONY : src/Material.cpp.s
+
 src/Renderer.o: src/Renderer.cpp.o
 .PHONY : src/Renderer.o
 
@@ -225,6 +249,30 @@ src/Window.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SENGINE2.dir/build.make CMakeFiles/SENGINE2.dir/src/Window.cpp.s
 .PHONY : src/Window.cpp.s
 
+src/config.o: src/config.cpp.o
+.PHONY : src/config.o
+
+# target to build an object file
+src/config.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SENGINE2.dir/build.make CMakeFiles/SENGINE2.dir/src/config.cpp.o
+.PHONY : src/config.cpp.o
+
+src/config.i: src/config.cpp.i
+.PHONY : src/config.i
+
+# target to preprocess a source file
+src/config.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SENGINE2.dir/build.make CMakeFiles/SENGINE2.dir/src/config.cpp.i
+.PHONY : src/config.cpp.i
+
+src/config.s: src/config.cpp.s
+.PHONY : src/config.s
+
+# target to generate assembly for a file
+src/config.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SENGINE2.dir/build.make CMakeFiles/SENGINE2.dir/src/config.cpp.s
+.PHONY : src/config.cpp.s
+
 src/glad.o: src/glad.c.o
 .PHONY : src/glad.o
 
@@ -285,6 +333,9 @@ help:
 	@echo "... src/Engine.o"
 	@echo "... src/Engine.i"
 	@echo "... src/Engine.s"
+	@echo "... src/Material.o"
+	@echo "... src/Material.i"
+	@echo "... src/Material.s"
 	@echo "... src/Renderer.o"
 	@echo "... src/Renderer.i"
 	@echo "... src/Renderer.s"
@@ -294,6 +345,9 @@ help:
 	@echo "... src/Window.o"
 	@echo "... src/Window.i"
 	@echo "... src/Window.s"
+	@echo "... src/config.o"
+	@echo "... src/config.i"
+	@echo "... src/config.s"
 	@echo "... src/glad.o"
 	@echo "... src/glad.i"
 	@echo "... src/glad.s"

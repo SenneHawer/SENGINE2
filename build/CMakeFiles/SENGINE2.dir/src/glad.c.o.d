@@ -1,4 +1,5 @@
 CMakeFiles/SENGINE2.dir/src/glad.c.o: \
+  /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/share/asan_ignorelist.txt \
   /Users/sennehawer/GitKraken\ Repository/SENGINE2/src/glad.c \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/_stdio.h \
@@ -34,8 +35,6 @@ CMakeFiles/SENGINE2.dir/src/glad.c.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/_ctermid.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/sys/_types/_off_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/sys/_types/_ssize_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/secure/_stdio.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/secure/_common.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/stdlib.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/sys/wait.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/sys/_types/_pid_t.h \
@@ -80,8 +79,6 @@ CMakeFiles/SENGINE2.dir/src/glad.c.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/sys/_types/_rsize_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/sys/_types/_errno_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/strings.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/secure/_strings.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/secure/_string.h \
   /Users/sennehawer/GitKraken\ Repository/SENGINE2/dependencies/glad/glad.h \
   /Users/sennehawer/GitKraken\ Repository/SENGINE2/dependencies/KHR/khrplatform.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/dlfcn.h \

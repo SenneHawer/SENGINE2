@@ -7,11 +7,11 @@ C_DEFINES =
 
 C_INCLUDES = -I"/Users/sennehawer/GitKraken Repository/SENGINE2/dependencies" -isystem /usr/local/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks
 
-C_FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk
+C_FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fsanitize=address -g
 
 CXX_DEFINES = 
 
 CXX_INCLUDES = -I"/Users/sennehawer/GitKraken Repository/SENGINE2/dependencies" -isystem /usr/local/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks
 
-CXX_FLAGS = -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk
+CXX_FLAGS = -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fsanitize=address -g
 
