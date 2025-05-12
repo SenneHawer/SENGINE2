@@ -6,12 +6,16 @@ TriangleMesh::TriangleMesh(){
     std::vector<float> positions = {
         -1.f, -1.f, 0.0f, 
         1.f, -1.f, 0.0f, 
-        -1.f, 1.f, 0.0f
+        -1.f, 1.f, 0.0f,
+
+        -1.f, 1.f, 0.0f, 
+        1.f, 1.f, 0.0f, 
+        1.f, -1.f, 0.0f
     };
     std::vector<float> colorIndices = {
-        0, 1, 2
+        0, 1, 2, 2, 1, 3
     }; 
-    m_vertexCount = 3;
+    m_vertexCount = 6;
 
     m_VBOList.resize(2);
 

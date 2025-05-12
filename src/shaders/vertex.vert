@@ -5,10 +5,11 @@ attribute float colorIndex;
 
 varying vec3 fragmentColor;
 
-const vec3 colors[3] = vec3[3](
+const vec3 colors[4] = vec3[4](
     vec3(1.0, 0.0, 0.0), // Red
     vec3(0.0, 1.0, 0.0), // Green
-    vec3(0.0, 0.0, 1.0)  // Blue
+    vec3(0.0, 0.0, 1.0),  // Blue
+    vec3(0.5, 0.5, 0.0)  // Gray
 );
 
 void main() {
