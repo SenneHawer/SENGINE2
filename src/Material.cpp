@@ -33,8 +33,8 @@ Material::~Material(){
     
 }
 
-void Material::Use(){
-    glActiveTexture(GL_TEXTURE0);
+void Material::Use(int unit){
+    glActiveTexture(GL_TEXTURE0 + unit);
     glBindTexture(GL_TEXTURE_2D, m_texture);
 
 }

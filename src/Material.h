@@ -5,7 +5,7 @@ class Material{
     Material(const char* filename);
     ~Material();
 
-    void Use();
+    void Use(int unit);
 
     private:
     unsigned int m_texture;
