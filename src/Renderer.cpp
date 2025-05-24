@@ -15,7 +15,7 @@ Renderer::~Renderer(){
     m_pMask = nullptr;
 }
 
-void Renderer::Init(){
+void Renderer::Init(const Window& window){
 
     glEnable(GL_DEPTH_TEST);
     glClearColor(0.25f, 0.5f, 0.75f, 1.0f);
@@ -31,12 +31,15 @@ void Renderer::Init(){
 
     //enable blending
     glEnable(GL_BLEND);
+    glEnable(GL_DEPTH_TEST);
+    glDisable(GL_CULL_FACE);
     glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
 
     m_pTriangle = new TriangleMesh();
     m_pMaterial = new Material("img/texture.png");
     m_pMask = new Material("img/vignette.png");
 
+    m_aspectRatio = window.GetAspectRatio();
 }
 
 void Renderer::Render(glm::mat4 modelMatrix){
@@ -44,13 +47,29 @@ void Renderer::Render(glm::mat4 modelMatrix){
 
     glUseProgram(m_shader);
 
-    //glm::mat4 model = glm::mat4(1.0f);
-    //model = glm::translate(model, glm::vec3(0.1f, 0.4f, 0.0f)); //translate to -2 on z-axis 
-    //model = glm::rotate(model, glm::radians(45.0f), glm::vec3(0.0f, 0.0f, 1.0f)); //rotate 45 degrees around z-axis
-    //model = glm::scale(model, glm::vec3(0.5f, 0.5f, 1.0f)); //scale to half size
+    
+    modelMatrix = glm::rotate(modelMatrix, (float)glfwGetTime(), glm::vec3(0.0f, 0.0f, 1.0f)); //
 
     unsigned int modelLocation = glGetUniformLocation(m_shader, "model");
     glUniformMatrix4fv(modelLocation, 1, GL_FALSE, glm::value_ptr(modelMatrix));
+
+    glm::vec3 camPos = glm::vec3(5.0f, 0.0f, 3.0f);
+    glm::vec3 camTarget = glm::vec3(0.0f, 0.0f, 0.0f);
+
+    glm::mat4 view = glm::lookAt(camPos, camTarget, glm::vec3(0.0f, 0.0f, 1.0f));
+        
+    unsigned int viewLocation = glGetUniformLocation(m_shader, "view");
+    glUniformMatrix4fv(viewLocation, 1, GL_FALSE, glm::value_ptr(view));
+
+
+    glm::mat4 projection = glm::perspective(
+        glm::radians(45.0f), //field of view
+        m_aspectRatio, //aspect ratio
+        0.1f, //near plane
+        100.0f //far plane
+    );
+    unsigned int projectionLocation = glGetUniformLocation(m_shader, "projection");
+    glUniformMatrix4fv(projectionLocation, 1, GL_FALSE, glm::value_ptr(projection));
 
     //DRAW OBJECTS
     m_pMaterial->Use(0);

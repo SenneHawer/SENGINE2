@@ -1078,4 +1078,5 @@ CMakeFiles/SENGINE2.dir/src/RenderSystem.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/sstream \
   /Users/sennehawer/GitKraken\ Repository/SENGINE2/src/Renderer.h \
   /Users/sennehawer/GitKraken\ Repository/SENGINE2/src/TriangleMesh.h \
-  /Users/sennehawer/GitKraken\ Repository/SENGINE2/src/Material.h
+  /Users/sennehawer/GitKraken\ Repository/SENGINE2/src/Material.h \
+  /Users/sennehawer/GitKraken\ Repository/SENGINE2/src/Window.h

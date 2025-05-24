@@ -3004,6 +3004,7 @@ CMakeFiles/SENGINE2.dir/src/RenderSystem.cpp.o: /Users/sennehawer/GitKraken\ Rep
   /Users/sennehawer/GitKraken\ Repository/SENGINE2/src/RenderSystem.h \
   /Users/sennehawer/GitKraken\ Repository/SENGINE2/src/Renderer.h \
   /Users/sennehawer/GitKraken\ Repository/SENGINE2/src/TriangleMesh.h \
+  /Users/sennehawer/GitKraken\ Repository/SENGINE2/src/Window.h \
   /Users/sennehawer/GitKraken\ Repository/SENGINE2/src/config.h \
   /usr/local/include/glm/common.hpp \
   /usr/local/include/glm/detail/qualifier.hpp \
@@ -4086,6 +4087,7 @@ CMakeFiles/SENGINE2.dir/src/Renderer.cpp.o: /Users/sennehawer/GitKraken\ Reposit
   /Users/sennehawer/GitKraken\ Repository/SENGINE2/src/Material.h \
   /Users/sennehawer/GitKraken\ Repository/SENGINE2/src/Renderer.h \
   /Users/sennehawer/GitKraken\ Repository/SENGINE2/src/TriangleMesh.h \
+  /Users/sennehawer/GitKraken\ Repository/SENGINE2/src/Window.h \
   /Users/sennehawer/GitKraken\ Repository/SENGINE2/src/config.h \
   /usr/local/include/glm/common.hpp \
   /usr/local/include/glm/detail/qualifier.hpp \

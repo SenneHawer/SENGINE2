@@ -74,3 +74,8 @@ void Window::GetFramebufferSize(int& width, int& height){
 void Window::SetViewport(int width, int height, int offsetX = 0, int offsetY = 0){
     glViewport(offsetX, offsetY, width, height);
 }
+
+float Window::GetAspectRatio() const {
+    return m_width / m_height;
+}
+    

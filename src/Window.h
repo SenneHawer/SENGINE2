@@ -1,3 +1,4 @@
+#pragma once
 #include "config.h"
 
 class Window{
@@ -16,6 +17,7 @@ class Window{
         //not tested
         void GetFramebufferSize(int& width, int& height);
         void SetViewport(int width, int height, int offsetX, int offsetY);
+        float GetAspectRatio() const;
 
     private:
 

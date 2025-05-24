@@ -22,7 +22,7 @@ Engine::~Engine(){
 void Engine::Init(){
 
     m_pWindow->Init();    
-    m_pRenderer->Init();
+    m_pRenderer->Init(*m_pWindow);
 
     m_pScene->Init();
 }

@@ -24,8 +24,8 @@ const entt::registry& Scene::GetRegistry(){
 void Scene::createEntities(){
     auto entity = m_registry.create();
     auto& transform = m_registry.emplace<TransformComponent>(entity);
-    transform.position = glm::vec3(0.1f, -0.3f, 0.0f);
+    transform.position = glm::vec3(0.0f, 0.0f, 0.0f);
     transform.rotation = glm::vec3(0.0f, 0.0f, 0.0f);
-    transform.scale = glm::vec3(1.0f, 2.0f, 1.0f);
+    transform.scale = glm::vec3(1.0f, 1.0f, 1.0f);
 }
 
