@@ -8,7 +8,7 @@ class Renderer{
         ~Renderer();
 
         void Init();
-        void Render();
+        void Render(glm::mat4 modelMatrix);
 
     private:
         unsigned int m_shader;

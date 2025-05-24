@@ -6,8 +6,9 @@ void RenderSystem::Render(const entt::registry& registry, Renderer& renderer){
 
     for (auto entity : view) {
         auto& transform = view.get<TransformComponent>(entity);
+        
 
-        renderer.Render();
+        renderer.Render(transform.GetModelMatrix());
     }
     //renderer.Render(); //delete once ecs is working
 }

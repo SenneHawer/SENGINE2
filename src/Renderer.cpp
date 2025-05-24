@@ -39,18 +39,18 @@ void Renderer::Init(){
 
 }
 
-void Renderer::Render(){
+void Renderer::Render(glm::mat4 modelMatrix){
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
     glUseProgram(m_shader);
 
-    glm::mat4 model = glm::mat4(1.0f);
-    model = glm::translate(model, glm::vec3(0.1f, 0.4f, 0.0f)); //translate to -2 on z-axis 
-    model = glm::rotate(model, glm::radians(45.0f), glm::vec3(0.0f, 0.0f, 1.0f)); //rotate 45 degrees around z-axis
-    model = glm::scale(model, glm::vec3(0.5f, 0.5f, 1.0f)); //scale to half size
+    //glm::mat4 model = glm::mat4(1.0f);
+    //model = glm::translate(model, glm::vec3(0.1f, 0.4f, 0.0f)); //translate to -2 on z-axis 
+    //model = glm::rotate(model, glm::radians(45.0f), glm::vec3(0.0f, 0.0f, 1.0f)); //rotate 45 degrees around z-axis
+    //model = glm::scale(model, glm::vec3(0.5f, 0.5f, 1.0f)); //scale to half size
 
     unsigned int modelLocation = glGetUniformLocation(m_shader, "model");
-    glUniformMatrix4fv(modelLocation, 1, GL_FALSE, glm::value_ptr(model));
+    glUniformMatrix4fv(modelLocation, 1, GL_FALSE, glm::value_ptr(modelMatrix));
 
     //DRAW OBJECTS
     m_pMaterial->Use(0);
