@@ -181,6 +181,48 @@ CMakeFiles/SENGINE2.dir/src/Material.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SENGINE2.dir/src/Material.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/sennehawer/GitKraken Repository/SENGINE2/src/Material.cpp" -o CMakeFiles/SENGINE2.dir/src/Material.cpp.s
 
+CMakeFiles/SENGINE2.dir/src/Scene.cpp.o: CMakeFiles/SENGINE2.dir/flags.make
+CMakeFiles/SENGINE2.dir/src/Scene.cpp.o: /Users/sennehawer/GitKraken\ Repository/SENGINE2/src/Scene.cpp
+CMakeFiles/SENGINE2.dir/src/Scene.cpp.o: CMakeFiles/SENGINE2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/sennehawer/GitKraken Repository/SENGINE2/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/SENGINE2.dir/src/Scene.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SENGINE2.dir/src/Scene.cpp.o -MF CMakeFiles/SENGINE2.dir/src/Scene.cpp.o.d -o CMakeFiles/SENGINE2.dir/src/Scene.cpp.o -c "/Users/sennehawer/GitKraken Repository/SENGINE2/src/Scene.cpp"
+
+CMakeFiles/SENGINE2.dir/src/Scene.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SENGINE2.dir/src/Scene.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/sennehawer/GitKraken Repository/SENGINE2/src/Scene.cpp" > CMakeFiles/SENGINE2.dir/src/Scene.cpp.i
+
+CMakeFiles/SENGINE2.dir/src/Scene.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SENGINE2.dir/src/Scene.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/sennehawer/GitKraken Repository/SENGINE2/src/Scene.cpp" -o CMakeFiles/SENGINE2.dir/src/Scene.cpp.s
+
+CMakeFiles/SENGINE2.dir/src/Entity.cpp.o: CMakeFiles/SENGINE2.dir/flags.make
+CMakeFiles/SENGINE2.dir/src/Entity.cpp.o: /Users/sennehawer/GitKraken\ Repository/SENGINE2/src/Entity.cpp
+CMakeFiles/SENGINE2.dir/src/Entity.cpp.o: CMakeFiles/SENGINE2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/sennehawer/GitKraken Repository/SENGINE2/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/SENGINE2.dir/src/Entity.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SENGINE2.dir/src/Entity.cpp.o -MF CMakeFiles/SENGINE2.dir/src/Entity.cpp.o.d -o CMakeFiles/SENGINE2.dir/src/Entity.cpp.o -c "/Users/sennehawer/GitKraken Repository/SENGINE2/src/Entity.cpp"
+
+CMakeFiles/SENGINE2.dir/src/Entity.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SENGINE2.dir/src/Entity.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/sennehawer/GitKraken Repository/SENGINE2/src/Entity.cpp" > CMakeFiles/SENGINE2.dir/src/Entity.cpp.i
+
+CMakeFiles/SENGINE2.dir/src/Entity.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SENGINE2.dir/src/Entity.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/sennehawer/GitKraken Repository/SENGINE2/src/Entity.cpp" -o CMakeFiles/SENGINE2.dir/src/Entity.cpp.s
+
+CMakeFiles/SENGINE2.dir/src/RenderSystem.cpp.o: CMakeFiles/SENGINE2.dir/flags.make
+CMakeFiles/SENGINE2.dir/src/RenderSystem.cpp.o: /Users/sennehawer/GitKraken\ Repository/SENGINE2/src/RenderSystem.cpp
+CMakeFiles/SENGINE2.dir/src/RenderSystem.cpp.o: CMakeFiles/SENGINE2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/sennehawer/GitKraken Repository/SENGINE2/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/SENGINE2.dir/src/RenderSystem.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SENGINE2.dir/src/RenderSystem.cpp.o -MF CMakeFiles/SENGINE2.dir/src/RenderSystem.cpp.o.d -o CMakeFiles/SENGINE2.dir/src/RenderSystem.cpp.o -c "/Users/sennehawer/GitKraken Repository/SENGINE2/src/RenderSystem.cpp"
+
+CMakeFiles/SENGINE2.dir/src/RenderSystem.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SENGINE2.dir/src/RenderSystem.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/sennehawer/GitKraken Repository/SENGINE2/src/RenderSystem.cpp" > CMakeFiles/SENGINE2.dir/src/RenderSystem.cpp.i
+
+CMakeFiles/SENGINE2.dir/src/RenderSystem.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SENGINE2.dir/src/RenderSystem.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/sennehawer/GitKraken Repository/SENGINE2/src/RenderSystem.cpp" -o CMakeFiles/SENGINE2.dir/src/RenderSystem.cpp.s
+
 # Object files for target SENGINE2
 SENGINE2_OBJECTS = \
 "CMakeFiles/SENGINE2.dir/src/config.cpp.o" \
@@ -190,7 +232,10 @@ SENGINE2_OBJECTS = \
 "CMakeFiles/SENGINE2.dir/src/Engine.cpp.o" \
 "CMakeFiles/SENGINE2.dir/src/Window.cpp.o" \
 "CMakeFiles/SENGINE2.dir/src/Renderer.cpp.o" \
-"CMakeFiles/SENGINE2.dir/src/Material.cpp.o"
+"CMakeFiles/SENGINE2.dir/src/Material.cpp.o" \
+"CMakeFiles/SENGINE2.dir/src/Scene.cpp.o" \
+"CMakeFiles/SENGINE2.dir/src/Entity.cpp.o" \
+"CMakeFiles/SENGINE2.dir/src/RenderSystem.cpp.o"
 
 # External object files for target SENGINE2
 SENGINE2_EXTERNAL_OBJECTS =
@@ -203,11 +248,14 @@ SENGINE2: CMakeFiles/SENGINE2.dir/src/Engine.cpp.o
 SENGINE2: CMakeFiles/SENGINE2.dir/src/Window.cpp.o
 SENGINE2: CMakeFiles/SENGINE2.dir/src/Renderer.cpp.o
 SENGINE2: CMakeFiles/SENGINE2.dir/src/Material.cpp.o
+SENGINE2: CMakeFiles/SENGINE2.dir/src/Scene.cpp.o
+SENGINE2: CMakeFiles/SENGINE2.dir/src/Entity.cpp.o
+SENGINE2: CMakeFiles/SENGINE2.dir/src/RenderSystem.cpp.o
 SENGINE2: CMakeFiles/SENGINE2.dir/build.make
 SENGINE2: /usr/local/lib/libglfw.3.4.dylib
 SENGINE2: /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks/OpenGL.framework
 SENGINE2: CMakeFiles/SENGINE2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Users/sennehawer/GitKraken Repository/SENGINE2/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable SENGINE2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Users/sennehawer/GitKraken Repository/SENGINE2/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable SENGINE2"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SENGINE2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

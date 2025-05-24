@@ -153,6 +153,30 @@ src/Engine.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SENGINE2.dir/build.make CMakeFiles/SENGINE2.dir/src/Engine.cpp.s
 .PHONY : src/Engine.cpp.s
 
+src/Entity.o: src/Entity.cpp.o
+.PHONY : src/Entity.o
+
+# target to build an object file
+src/Entity.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SENGINE2.dir/build.make CMakeFiles/SENGINE2.dir/src/Entity.cpp.o
+.PHONY : src/Entity.cpp.o
+
+src/Entity.i: src/Entity.cpp.i
+.PHONY : src/Entity.i
+
+# target to preprocess a source file
+src/Entity.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SENGINE2.dir/build.make CMakeFiles/SENGINE2.dir/src/Entity.cpp.i
+.PHONY : src/Entity.cpp.i
+
+src/Entity.s: src/Entity.cpp.s
+.PHONY : src/Entity.s
+
+# target to generate assembly for a file
+src/Entity.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SENGINE2.dir/build.make CMakeFiles/SENGINE2.dir/src/Entity.cpp.s
+.PHONY : src/Entity.cpp.s
+
 src/Material.o: src/Material.cpp.o
 .PHONY : src/Material.o
 
@@ -177,6 +201,30 @@ src/Material.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SENGINE2.dir/build.make CMakeFiles/SENGINE2.dir/src/Material.cpp.s
 .PHONY : src/Material.cpp.s
 
+src/RenderSystem.o: src/RenderSystem.cpp.o
+.PHONY : src/RenderSystem.o
+
+# target to build an object file
+src/RenderSystem.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SENGINE2.dir/build.make CMakeFiles/SENGINE2.dir/src/RenderSystem.cpp.o
+.PHONY : src/RenderSystem.cpp.o
+
+src/RenderSystem.i: src/RenderSystem.cpp.i
+.PHONY : src/RenderSystem.i
+
+# target to preprocess a source file
+src/RenderSystem.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SENGINE2.dir/build.make CMakeFiles/SENGINE2.dir/src/RenderSystem.cpp.i
+.PHONY : src/RenderSystem.cpp.i
+
+src/RenderSystem.s: src/RenderSystem.cpp.s
+.PHONY : src/RenderSystem.s
+
+# target to generate assembly for a file
+src/RenderSystem.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SENGINE2.dir/build.make CMakeFiles/SENGINE2.dir/src/RenderSystem.cpp.s
+.PHONY : src/RenderSystem.cpp.s
+
 src/Renderer.o: src/Renderer.cpp.o
 .PHONY : src/Renderer.o
 
@@ -200,6 +248,30 @@ src/Renderer.s: src/Renderer.cpp.s
 src/Renderer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SENGINE2.dir/build.make CMakeFiles/SENGINE2.dir/src/Renderer.cpp.s
 .PHONY : src/Renderer.cpp.s
+
+src/Scene.o: src/Scene.cpp.o
+.PHONY : src/Scene.o
+
+# target to build an object file
+src/Scene.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SENGINE2.dir/build.make CMakeFiles/SENGINE2.dir/src/Scene.cpp.o
+.PHONY : src/Scene.cpp.o
+
+src/Scene.i: src/Scene.cpp.i
+.PHONY : src/Scene.i
+
+# target to preprocess a source file
+src/Scene.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SENGINE2.dir/build.make CMakeFiles/SENGINE2.dir/src/Scene.cpp.i
+.PHONY : src/Scene.cpp.i
+
+src/Scene.s: src/Scene.cpp.s
+.PHONY : src/Scene.s
+
+# target to generate assembly for a file
+src/Scene.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SENGINE2.dir/build.make CMakeFiles/SENGINE2.dir/src/Scene.cpp.s
+.PHONY : src/Scene.cpp.s
 
 src/TriangleMesh.o: src/TriangleMesh.cpp.o
 .PHONY : src/TriangleMesh.o
@@ -333,12 +405,21 @@ help:
 	@echo "... src/Engine.o"
 	@echo "... src/Engine.i"
 	@echo "... src/Engine.s"
+	@echo "... src/Entity.o"
+	@echo "... src/Entity.i"
+	@echo "... src/Entity.s"
 	@echo "... src/Material.o"
 	@echo "... src/Material.i"
 	@echo "... src/Material.s"
+	@echo "... src/RenderSystem.o"
+	@echo "... src/RenderSystem.i"
+	@echo "... src/RenderSystem.s"
 	@echo "... src/Renderer.o"
 	@echo "... src/Renderer.i"
 	@echo "... src/Renderer.s"
+	@echo "... src/Scene.o"
+	@echo "... src/Scene.i"
+	@echo "... src/Scene.s"
 	@echo "... src/TriangleMesh.o"
 	@echo "... src/TriangleMesh.i"
 	@echo "... src/TriangleMesh.s"

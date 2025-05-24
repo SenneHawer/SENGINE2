@@ -1,0 +1,3 @@
+/Users/sennehawer/GitKraken Repository/SENGINE2/build/_deps/glm-subbuild/CMakeFiles/glm-populate.dir
+/Users/sennehawer/GitKraken Repository/SENGINE2/build/_deps/glm-subbuild/CMakeFiles/edit_cache.dir
+/Users/sennehawer/GitKraken Repository/SENGINE2/build/_deps/glm-subbuild/CMakeFiles/rebuild_cache.dir

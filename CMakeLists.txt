@@ -20,15 +20,24 @@ add_executable(SENGINE2
     src/Renderer.h
     src/Renderer.cpp
     src/Material.cpp
+    src/Scene.cpp
+    src/Entity.cpp
+    src/RenderSystem.cpp
     )
 
-target_include_directories(SENGINE2 PRIVATE dependencies)
+find_package(glm REQUIRED)
+target_include_directories(SENGINE2 PRIVATE dependencies glm)
 
 find_package(glfw3 REQUIRED)
+
 target_link_libraries(SENGINE2 glfw OpenGL::GL) 
 
 target_compile_options(SENGINE2 PRIVATE -fsanitize=address -g)
 target_link_options(SENGINE2 PRIVATE -fsanitize=address)
+
+target_include_directories(SENGINE2 PRIVATE
+    ${CMAKE_CURRENT_SOURCE_DIR}/dependencies/entt/single_include
+)
 
 set(CMAKE_BUILD_TYPE Debug)
 

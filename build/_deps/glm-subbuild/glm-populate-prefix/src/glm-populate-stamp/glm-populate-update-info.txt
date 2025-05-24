@@ -1,0 +1,7 @@
+# This is a generated file and its contents are an internal implementation detail.
+# The patch step will be re-executed if anything in this file changes.
+# No other meaning or use of this file is supported.
+
+command (connected)=/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/cmake/data/bin/cmake;-Dcan_fetch=YES;-P;/Users/sennehawer/GitKraken Repository/SENGINE2/build/_deps/glm-subbuild/glm-populate-prefix/tmp/glm-populate-gitupdate.cmake
+command (disconnected)=/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/cmake/data/bin/cmake;-Dcan_fetch=NO;-P;/Users/sennehawer/GitKraken Repository/SENGINE2/build/_deps/glm-subbuild/glm-populate-prefix/tmp/glm-populate-gitupdate.cmake
+work_dir=/Users/sennehawer/GitKraken Repository/SENGINE2/build/_deps/glm-src

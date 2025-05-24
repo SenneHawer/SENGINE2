@@ -1,50 +1,68 @@
 [
 {
   "directory": "/Users/sennehawer/GitKraken Repository/SENGINE2/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I\"/Users/sennehawer/GitKraken Repository/SENGINE2/dependencies\" -isystem /usr/local/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fsanitize=address -g -o CMakeFiles/SENGINE2.dir/src/config.cpp.o -c \"/Users/sennehawer/GitKraken Repository/SENGINE2/src/config.cpp\"",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I\"/Users/sennehawer/GitKraken Repository/SENGINE2/dependencies\" -I\"/Users/sennehawer/GitKraken Repository/SENGINE2/glm\" -I\"/Users/sennehawer/GitKraken Repository/SENGINE2/dependencies/entt/single_include\" -isystem /usr/local/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fsanitize=address -g -o CMakeFiles/SENGINE2.dir/src/config.cpp.o -c \"/Users/sennehawer/GitKraken Repository/SENGINE2/src/config.cpp\"",
   "file": "/Users/sennehawer/GitKraken Repository/SENGINE2/src/config.cpp",
   "output": "CMakeFiles/SENGINE2.dir/src/config.cpp.o"
 },
 {
   "directory": "/Users/sennehawer/GitKraken Repository/SENGINE2/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I\"/Users/sennehawer/GitKraken Repository/SENGINE2/dependencies\" -isystem /usr/local/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fsanitize=address -g -o CMakeFiles/SENGINE2.dir/src/main.cpp.o -c \"/Users/sennehawer/GitKraken Repository/SENGINE2/src/main.cpp\"",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I\"/Users/sennehawer/GitKraken Repository/SENGINE2/dependencies\" -I\"/Users/sennehawer/GitKraken Repository/SENGINE2/glm\" -I\"/Users/sennehawer/GitKraken Repository/SENGINE2/dependencies/entt/single_include\" -isystem /usr/local/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fsanitize=address -g -o CMakeFiles/SENGINE2.dir/src/main.cpp.o -c \"/Users/sennehawer/GitKraken Repository/SENGINE2/src/main.cpp\"",
   "file": "/Users/sennehawer/GitKraken Repository/SENGINE2/src/main.cpp",
   "output": "CMakeFiles/SENGINE2.dir/src/main.cpp.o"
 },
 {
   "directory": "/Users/sennehawer/GitKraken Repository/SENGINE2/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/cc  -I\"/Users/sennehawer/GitKraken Repository/SENGINE2/dependencies\" -isystem /usr/local/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fsanitize=address -g -o CMakeFiles/SENGINE2.dir/src/glad.c.o -c \"/Users/sennehawer/GitKraken Repository/SENGINE2/src/glad.c\"",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc  -I\"/Users/sennehawer/GitKraken Repository/SENGINE2/dependencies\" -I\"/Users/sennehawer/GitKraken Repository/SENGINE2/glm\" -I\"/Users/sennehawer/GitKraken Repository/SENGINE2/dependencies/entt/single_include\" -isystem /usr/local/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fsanitize=address -g -o CMakeFiles/SENGINE2.dir/src/glad.c.o -c \"/Users/sennehawer/GitKraken Repository/SENGINE2/src/glad.c\"",
   "file": "/Users/sennehawer/GitKraken Repository/SENGINE2/src/glad.c",
   "output": "CMakeFiles/SENGINE2.dir/src/glad.c.o"
 },
 {
   "directory": "/Users/sennehawer/GitKraken Repository/SENGINE2/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I\"/Users/sennehawer/GitKraken Repository/SENGINE2/dependencies\" -isystem /usr/local/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fsanitize=address -g -o CMakeFiles/SENGINE2.dir/src/TriangleMesh.cpp.o -c \"/Users/sennehawer/GitKraken Repository/SENGINE2/src/TriangleMesh.cpp\"",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I\"/Users/sennehawer/GitKraken Repository/SENGINE2/dependencies\" -I\"/Users/sennehawer/GitKraken Repository/SENGINE2/glm\" -I\"/Users/sennehawer/GitKraken Repository/SENGINE2/dependencies/entt/single_include\" -isystem /usr/local/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fsanitize=address -g -o CMakeFiles/SENGINE2.dir/src/TriangleMesh.cpp.o -c \"/Users/sennehawer/GitKraken Repository/SENGINE2/src/TriangleMesh.cpp\"",
   "file": "/Users/sennehawer/GitKraken Repository/SENGINE2/src/TriangleMesh.cpp",
   "output": "CMakeFiles/SENGINE2.dir/src/TriangleMesh.cpp.o"
 },
 {
   "directory": "/Users/sennehawer/GitKraken Repository/SENGINE2/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I\"/Users/sennehawer/GitKraken Repository/SENGINE2/dependencies\" -isystem /usr/local/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fsanitize=address -g -o CMakeFiles/SENGINE2.dir/src/Engine.cpp.o -c \"/Users/sennehawer/GitKraken Repository/SENGINE2/src/Engine.cpp\"",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I\"/Users/sennehawer/GitKraken Repository/SENGINE2/dependencies\" -I\"/Users/sennehawer/GitKraken Repository/SENGINE2/glm\" -I\"/Users/sennehawer/GitKraken Repository/SENGINE2/dependencies/entt/single_include\" -isystem /usr/local/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fsanitize=address -g -o CMakeFiles/SENGINE2.dir/src/Engine.cpp.o -c \"/Users/sennehawer/GitKraken Repository/SENGINE2/src/Engine.cpp\"",
   "file": "/Users/sennehawer/GitKraken Repository/SENGINE2/src/Engine.cpp",
   "output": "CMakeFiles/SENGINE2.dir/src/Engine.cpp.o"
 },
 {
   "directory": "/Users/sennehawer/GitKraken Repository/SENGINE2/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I\"/Users/sennehawer/GitKraken Repository/SENGINE2/dependencies\" -isystem /usr/local/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fsanitize=address -g -o CMakeFiles/SENGINE2.dir/src/Window.cpp.o -c \"/Users/sennehawer/GitKraken Repository/SENGINE2/src/Window.cpp\"",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I\"/Users/sennehawer/GitKraken Repository/SENGINE2/dependencies\" -I\"/Users/sennehawer/GitKraken Repository/SENGINE2/glm\" -I\"/Users/sennehawer/GitKraken Repository/SENGINE2/dependencies/entt/single_include\" -isystem /usr/local/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fsanitize=address -g -o CMakeFiles/SENGINE2.dir/src/Window.cpp.o -c \"/Users/sennehawer/GitKraken Repository/SENGINE2/src/Window.cpp\"",
   "file": "/Users/sennehawer/GitKraken Repository/SENGINE2/src/Window.cpp",
   "output": "CMakeFiles/SENGINE2.dir/src/Window.cpp.o"
 },
 {
   "directory": "/Users/sennehawer/GitKraken Repository/SENGINE2/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I\"/Users/sennehawer/GitKraken Repository/SENGINE2/dependencies\" -isystem /usr/local/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fsanitize=address -g -o CMakeFiles/SENGINE2.dir/src/Renderer.cpp.o -c \"/Users/sennehawer/GitKraken Repository/SENGINE2/src/Renderer.cpp\"",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I\"/Users/sennehawer/GitKraken Repository/SENGINE2/dependencies\" -I\"/Users/sennehawer/GitKraken Repository/SENGINE2/glm\" -I\"/Users/sennehawer/GitKraken Repository/SENGINE2/dependencies/entt/single_include\" -isystem /usr/local/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fsanitize=address -g -o CMakeFiles/SENGINE2.dir/src/Renderer.cpp.o -c \"/Users/sennehawer/GitKraken Repository/SENGINE2/src/Renderer.cpp\"",
   "file": "/Users/sennehawer/GitKraken Repository/SENGINE2/src/Renderer.cpp",
   "output": "CMakeFiles/SENGINE2.dir/src/Renderer.cpp.o"
 },
 {
   "directory": "/Users/sennehawer/GitKraken Repository/SENGINE2/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I\"/Users/sennehawer/GitKraken Repository/SENGINE2/dependencies\" -isystem /usr/local/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fsanitize=address -g -o CMakeFiles/SENGINE2.dir/src/Material.cpp.o -c \"/Users/sennehawer/GitKraken Repository/SENGINE2/src/Material.cpp\"",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I\"/Users/sennehawer/GitKraken Repository/SENGINE2/dependencies\" -I\"/Users/sennehawer/GitKraken Repository/SENGINE2/glm\" -I\"/Users/sennehawer/GitKraken Repository/SENGINE2/dependencies/entt/single_include\" -isystem /usr/local/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fsanitize=address -g -o CMakeFiles/SENGINE2.dir/src/Material.cpp.o -c \"/Users/sennehawer/GitKraken Repository/SENGINE2/src/Material.cpp\"",
   "file": "/Users/sennehawer/GitKraken Repository/SENGINE2/src/Material.cpp",
   "output": "CMakeFiles/SENGINE2.dir/src/Material.cpp.o"
+},
+{
+  "directory": "/Users/sennehawer/GitKraken Repository/SENGINE2/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I\"/Users/sennehawer/GitKraken Repository/SENGINE2/dependencies\" -I\"/Users/sennehawer/GitKraken Repository/SENGINE2/glm\" -I\"/Users/sennehawer/GitKraken Repository/SENGINE2/dependencies/entt/single_include\" -isystem /usr/local/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fsanitize=address -g -o CMakeFiles/SENGINE2.dir/src/Scene.cpp.o -c \"/Users/sennehawer/GitKraken Repository/SENGINE2/src/Scene.cpp\"",
+  "file": "/Users/sennehawer/GitKraken Repository/SENGINE2/src/Scene.cpp",
+  "output": "CMakeFiles/SENGINE2.dir/src/Scene.cpp.o"
+},
+{
+  "directory": "/Users/sennehawer/GitKraken Repository/SENGINE2/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I\"/Users/sennehawer/GitKraken Repository/SENGINE2/dependencies\" -I\"/Users/sennehawer/GitKraken Repository/SENGINE2/glm\" -I\"/Users/sennehawer/GitKraken Repository/SENGINE2/dependencies/entt/single_include\" -isystem /usr/local/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fsanitize=address -g -o CMakeFiles/SENGINE2.dir/src/Entity.cpp.o -c \"/Users/sennehawer/GitKraken Repository/SENGINE2/src/Entity.cpp\"",
+  "file": "/Users/sennehawer/GitKraken Repository/SENGINE2/src/Entity.cpp",
+  "output": "CMakeFiles/SENGINE2.dir/src/Entity.cpp.o"
+},
+{
+  "directory": "/Users/sennehawer/GitKraken Repository/SENGINE2/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I\"/Users/sennehawer/GitKraken Repository/SENGINE2/dependencies\" -I\"/Users/sennehawer/GitKraken Repository/SENGINE2/glm\" -I\"/Users/sennehawer/GitKraken Repository/SENGINE2/dependencies/entt/single_include\" -isystem /usr/local/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fsanitize=address -g -o CMakeFiles/SENGINE2.dir/src/RenderSystem.cpp.o -c \"/Users/sennehawer/GitKraken Repository/SENGINE2/src/RenderSystem.cpp\"",
+  "file": "/Users/sennehawer/GitKraken Repository/SENGINE2/src/RenderSystem.cpp",
+  "output": "CMakeFiles/SENGINE2.dir/src/RenderSystem.cpp.o"
 }
 ]

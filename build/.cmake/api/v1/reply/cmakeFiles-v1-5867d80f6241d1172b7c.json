@@ -163,6 +163,18 @@
 		},
 		{
 			"isExternal" : true,
+			"path" : "/usr/local/share/glm/glmConfigVersion.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/local/share/glm/glmConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/local/share/glm/glmConfig-release.cmake"
+		},
+		{
+			"isExternal" : true,
 			"path" : "/usr/local/lib/cmake/glfw3/glfw3ConfigVersion.cmake"
 		},
 		{
