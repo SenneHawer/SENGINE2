@@ -838,7 +838,10 @@ CMakeFiles/SENGINE2.dir/src/Engine.cpp.o: /Users/sennehawer/GitKraken\ Repositor
   /Users/sennehawer/GitKraken\ Repository/SENGINE2/src/TriangleMesh.h \
   /Users/sennehawer/GitKraken\ Repository/SENGINE2/src/Window.h \
   /Users/sennehawer/GitKraken\ Repository/SENGINE2/src/config.h \
+  /usr/local/include/glm/common.hpp \
+  /usr/local/include/glm/detail/qualifier.hpp \
   /usr/local/include/glm/detail/setup.hpp \
+  /usr/local/include/glm/detail/type_float.hpp \
   /usr/local/include/glm/detail/type_mat2x2.hpp \
   /usr/local/include/glm/detail/type_mat2x3.hpp \
   /usr/local/include/glm/detail/type_mat2x4.hpp \
@@ -848,17 +851,31 @@ CMakeFiles/SENGINE2.dir/src/Engine.cpp.o: /Users/sennehawer/GitKraken\ Repositor
   /usr/local/include/glm/detail/type_mat4x2.hpp \
   /usr/local/include/glm/detail/type_mat4x3.hpp \
   /usr/local/include/glm/detail/type_mat4x4.hpp \
+  /usr/local/include/glm/detail/type_quat.hpp \
+  /usr/local/include/glm/detail/type_vec1.hpp \
   /usr/local/include/glm/detail/type_vec2.hpp \
   /usr/local/include/glm/detail/type_vec3.hpp \
   /usr/local/include/glm/detail/type_vec4.hpp \
+  /usr/local/include/glm/exponential.hpp \
+  /usr/local/include/glm/ext/quaternion_geometric.hpp \
+  /usr/local/include/glm/ext/scalar_constants.hpp \
   /usr/local/include/glm/ext/scalar_int_sized.hpp \
   /usr/local/include/glm/ext/scalar_uint_sized.hpp \
+  /usr/local/include/glm/ext/vector_int1.hpp \
   /usr/local/include/glm/ext/vector_int2.hpp \
   /usr/local/include/glm/ext/vector_int3.hpp \
   /usr/local/include/glm/ext/vector_int4.hpp \
+  /usr/local/include/glm/ext/vector_relational.hpp \
+  /usr/local/include/glm/ext/vector_uint1.hpp \
   /usr/local/include/glm/ext/vector_uint2.hpp \
   /usr/local/include/glm/ext/vector_uint3.hpp \
   /usr/local/include/glm/ext/vector_uint4.hpp \
+  /usr/local/include/glm/geometric.hpp \
+  /usr/local/include/glm/gtc/constants.hpp \
+  /usr/local/include/glm/matrix.hpp \
+  /usr/local/include/glm/trigonometric.hpp \
+  /usr/local/include/glm/vector_relational.hpp \
+  /usr/local/include/glm/ext/matrix_clip_space.inl \
   /usr/local/include/glm/ext/matrix_double2x2.hpp \
   /usr/local/include/glm/ext/matrix_double2x2_precision.hpp \
   /usr/local/include/glm/ext/matrix_double2x3.hpp \
@@ -895,6 +912,15 @@ CMakeFiles/SENGINE2.dir/src/Engine.cpp.o: /Users/sennehawer/GitKraken\ Repositor
   /usr/local/include/glm/ext/matrix_float4x3_precision.hpp \
   /usr/local/include/glm/ext/matrix_float4x4.hpp \
   /usr/local/include/glm/ext/matrix_float4x4_precision.hpp \
+  /usr/local/include/glm/ext/matrix_projection.inl \
+  /usr/local/include/glm/ext/matrix_transform.inl \
+  /usr/local/include/glm/ext/quaternion_common.inl \
+  /usr/local/include/glm/ext/quaternion_geometric.inl \
+  /usr/local/include/glm/ext/quaternion_relational.inl \
+  /usr/local/include/glm/ext/quaternion_transform.inl \
+  /usr/local/include/glm/ext/quaternion_trigonometric.inl \
+  /usr/local/include/glm/ext/scalar_constants.hpp \
+  /usr/local/include/glm/ext/scalar_constants.inl \
   /usr/local/include/glm/ext/vector_bool2.hpp \
   /usr/local/include/glm/ext/vector_bool2_precision.hpp \
   /usr/local/include/glm/ext/vector_bool3.hpp \
@@ -919,6 +945,8 @@ CMakeFiles/SENGINE2.dir/src/Engine.cpp.o: /Users/sennehawer/GitKraken\ Repositor
   /usr/local/include/glm/ext/vector_int3_sized.hpp \
   /usr/local/include/glm/ext/vector_int4.hpp \
   /usr/local/include/glm/ext/vector_int4_sized.hpp \
+  /usr/local/include/glm/ext/vector_relational.hpp \
+  /usr/local/include/glm/ext/vector_relational.inl \
   /usr/local/include/glm/ext/vector_uint2.hpp \
   /usr/local/include/glm/ext/vector_uint2_sized.hpp \
   /usr/local/include/glm/ext/vector_uint3.hpp \
@@ -927,10 +955,21 @@ CMakeFiles/SENGINE2.dir/src/Engine.cpp.o: /Users/sennehawer/GitKraken\ Repositor
   /usr/local/include/glm/ext/vector_uint4_sized.hpp \
   /usr/local/include/glm/common.hpp \
   /usr/local/include/glm/common.hpp \
+  /usr/local/include/glm/detail/type_mat3x3.hpp \
+  /usr/local/include/glm/detail/type_mat4x4.hpp \
+  /usr/local/include/glm/detail/type_vec3.hpp \
+  /usr/local/include/glm/detail/type_vec4.hpp \
   /usr/local/include/glm/exponential.hpp \
+  /usr/local/include/glm/ext/quaternion_common.hpp \
+  /usr/local/include/glm/ext/quaternion_geometric.hpp \
+  /usr/local/include/glm/ext/quaternion_relational.hpp \
+  /usr/local/include/glm/ext/vector_relational.hpp \
   /usr/local/include/glm/geometric.hpp \
+  /usr/local/include/glm/gtc/constants.hpp \
+  /usr/local/include/glm/gtc/matrix_transform.hpp \
   /usr/local/include/glm/matrix.hpp \
   /usr/local/include/glm/simd/platform.h \
+  /usr/local/include/glm/trigonometric.hpp \
   /usr/local/include/glm/vector_relational.hpp \
   /usr/local/include/glm/detail/compute_vector_relational.hpp \
   /usr/local/include/glm/detail/_fixes.hpp \
@@ -958,6 +997,7 @@ CMakeFiles/SENGINE2.dir/src/Engine.cpp.o: /Users/sennehawer/GitKraken\ Repositor
   /usr/local/include/glm/detail/type_mat4x2.inl \
   /usr/local/include/glm/detail/type_mat4x3.inl \
   /usr/local/include/glm/detail/type_mat4x4.inl \
+  /usr/local/include/glm/detail/type_quat.inl \
   /usr/local/include/glm/detail/type_vec1.hpp \
   /usr/local/include/glm/detail/type_vec1.inl \
   /usr/local/include/glm/detail/type_vec2.hpp \
@@ -970,6 +1010,65 @@ CMakeFiles/SENGINE2.dir/src/Engine.cpp.o: /Users/sennehawer/GitKraken\ Repositor
   /usr/local/include/glm/fwd.hpp \
   /usr/local/include/glm/geometric.hpp \
   /usr/local/include/glm/glm.hpp \
+  /usr/local/include/glm/common.hpp \
+  /usr/local/include/glm/detail/qualifier.hpp \
+  /usr/local/include/glm/detail/setup.hpp \
+  /usr/local/include/glm/detail/type_mat3x3.hpp \
+  /usr/local/include/glm/detail/type_mat4x4.hpp \
+  /usr/local/include/glm/detail/type_vec3.hpp \
+  /usr/local/include/glm/detail/type_vec4.hpp \
+  /usr/local/include/glm/exponential.hpp \
+  /usr/local/include/glm/ext/matrix_clip_space.hpp \
+  /usr/local/include/glm/ext/matrix_projection.hpp \
+  /usr/local/include/glm/ext/matrix_transform.hpp \
+  /usr/local/include/glm/ext/quaternion_common.hpp \
+  /usr/local/include/glm/ext/quaternion_double.hpp \
+  /usr/local/include/glm/ext/quaternion_double_precision.hpp \
+  /usr/local/include/glm/ext/quaternion_float.hpp \
+  /usr/local/include/glm/ext/quaternion_float_precision.hpp \
+  /usr/local/include/glm/ext/quaternion_geometric.hpp \
+  /usr/local/include/glm/ext/quaternion_relational.hpp \
+  /usr/local/include/glm/ext/quaternion_transform.hpp \
+  /usr/local/include/glm/ext/quaternion_trigonometric.hpp \
+  /usr/local/include/glm/ext/scalar_constants.hpp \
+  /usr/local/include/glm/ext/vector_bool1.hpp \
+  /usr/local/include/glm/ext/vector_bool1_precision.hpp \
+  /usr/local/include/glm/ext/vector_double1.hpp \
+  /usr/local/include/glm/ext/vector_double1_precision.hpp \
+  /usr/local/include/glm/ext/vector_float1.hpp \
+  /usr/local/include/glm/ext/vector_float1_precision.hpp \
+  /usr/local/include/glm/ext/vector_int1.hpp \
+  /usr/local/include/glm/ext/vector_int1_sized.hpp \
+  /usr/local/include/glm/ext/vector_relational.hpp \
+  /usr/local/include/glm/ext/vector_uint1.hpp \
+  /usr/local/include/glm/ext/vector_uint1_sized.hpp \
+  /usr/local/include/glm/geometric.hpp \
+  /usr/local/include/glm/gtc/constants.hpp \
+  /usr/local/include/glm/gtc/matrix_transform.hpp \
+  /usr/local/include/glm/gtc/quaternion.hpp \
+  /usr/local/include/glm/gtc/vec1.hpp \
+  /usr/local/include/glm/mat2x2.hpp \
+  /usr/local/include/glm/mat2x3.hpp \
+  /usr/local/include/glm/mat2x4.hpp \
+  /usr/local/include/glm/mat3x2.hpp \
+  /usr/local/include/glm/mat3x3.hpp \
+  /usr/local/include/glm/mat3x4.hpp \
+  /usr/local/include/glm/mat4x2.hpp \
+  /usr/local/include/glm/mat4x3.hpp \
+  /usr/local/include/glm/mat4x4.hpp \
+  /usr/local/include/glm/matrix.hpp \
+  /usr/local/include/glm/trigonometric.hpp \
+  /usr/local/include/glm/vec2.hpp \
+  /usr/local/include/glm/vec3.hpp \
+  /usr/local/include/glm/vec4.hpp \
+  /usr/local/include/glm/vector_relational.hpp \
+  /usr/local/include/glm/gtc/constants.inl \
+  /usr/local/include/glm/gtc/epsilon.hpp \
+  /usr/local/include/glm/gtc/epsilon.inl \
+  /usr/local/include/glm/gtc/matrix_transform.inl \
+  /usr/local/include/glm/gtc/quaternion.inl \
+  /usr/local/include/glm/gtc/type_ptr.hpp \
+  /usr/local/include/glm/gtc/type_ptr.inl \
   /usr/local/include/glm/integer.hpp \
   /usr/local/include/glm/mat2x2.hpp \
   /usr/local/include/glm/mat2x3.hpp \
@@ -1823,7 +1922,10 @@ CMakeFiles/SENGINE2.dir/src/Material.cpp.o: /Users/sennehawer/GitKraken\ Reposit
   /Users/sennehawer/GitKraken\ Repository/SENGINE2/src/Material.h \
   /Users/sennehawer/GitKraken\ Repository/SENGINE2/src/config.h \
   /Users/sennehawer/GitKraken\ Repository/SENGINE2/src/stb_image.h \
+  /usr/local/include/glm/common.hpp \
+  /usr/local/include/glm/detail/qualifier.hpp \
   /usr/local/include/glm/detail/setup.hpp \
+  /usr/local/include/glm/detail/type_float.hpp \
   /usr/local/include/glm/detail/type_mat2x2.hpp \
   /usr/local/include/glm/detail/type_mat2x3.hpp \
   /usr/local/include/glm/detail/type_mat2x4.hpp \
@@ -1833,17 +1935,31 @@ CMakeFiles/SENGINE2.dir/src/Material.cpp.o: /Users/sennehawer/GitKraken\ Reposit
   /usr/local/include/glm/detail/type_mat4x2.hpp \
   /usr/local/include/glm/detail/type_mat4x3.hpp \
   /usr/local/include/glm/detail/type_mat4x4.hpp \
+  /usr/local/include/glm/detail/type_quat.hpp \
+  /usr/local/include/glm/detail/type_vec1.hpp \
   /usr/local/include/glm/detail/type_vec2.hpp \
   /usr/local/include/glm/detail/type_vec3.hpp \
   /usr/local/include/glm/detail/type_vec4.hpp \
+  /usr/local/include/glm/exponential.hpp \
+  /usr/local/include/glm/ext/quaternion_geometric.hpp \
+  /usr/local/include/glm/ext/scalar_constants.hpp \
   /usr/local/include/glm/ext/scalar_int_sized.hpp \
   /usr/local/include/glm/ext/scalar_uint_sized.hpp \
+  /usr/local/include/glm/ext/vector_int1.hpp \
   /usr/local/include/glm/ext/vector_int2.hpp \
   /usr/local/include/glm/ext/vector_int3.hpp \
   /usr/local/include/glm/ext/vector_int4.hpp \
+  /usr/local/include/glm/ext/vector_relational.hpp \
+  /usr/local/include/glm/ext/vector_uint1.hpp \
   /usr/local/include/glm/ext/vector_uint2.hpp \
   /usr/local/include/glm/ext/vector_uint3.hpp \
   /usr/local/include/glm/ext/vector_uint4.hpp \
+  /usr/local/include/glm/geometric.hpp \
+  /usr/local/include/glm/gtc/constants.hpp \
+  /usr/local/include/glm/matrix.hpp \
+  /usr/local/include/glm/trigonometric.hpp \
+  /usr/local/include/glm/vector_relational.hpp \
+  /usr/local/include/glm/ext/matrix_clip_space.inl \
   /usr/local/include/glm/ext/matrix_double2x2.hpp \
   /usr/local/include/glm/ext/matrix_double2x2_precision.hpp \
   /usr/local/include/glm/ext/matrix_double2x3.hpp \
@@ -1880,6 +1996,15 @@ CMakeFiles/SENGINE2.dir/src/Material.cpp.o: /Users/sennehawer/GitKraken\ Reposit
   /usr/local/include/glm/ext/matrix_float4x3_precision.hpp \
   /usr/local/include/glm/ext/matrix_float4x4.hpp \
   /usr/local/include/glm/ext/matrix_float4x4_precision.hpp \
+  /usr/local/include/glm/ext/matrix_projection.inl \
+  /usr/local/include/glm/ext/matrix_transform.inl \
+  /usr/local/include/glm/ext/quaternion_common.inl \
+  /usr/local/include/glm/ext/quaternion_geometric.inl \
+  /usr/local/include/glm/ext/quaternion_relational.inl \
+  /usr/local/include/glm/ext/quaternion_transform.inl \
+  /usr/local/include/glm/ext/quaternion_trigonometric.inl \
+  /usr/local/include/glm/ext/scalar_constants.hpp \
+  /usr/local/include/glm/ext/scalar_constants.inl \
   /usr/local/include/glm/ext/vector_bool2.hpp \
   /usr/local/include/glm/ext/vector_bool2_precision.hpp \
   /usr/local/include/glm/ext/vector_bool3.hpp \
@@ -1904,6 +2029,8 @@ CMakeFiles/SENGINE2.dir/src/Material.cpp.o: /Users/sennehawer/GitKraken\ Reposit
   /usr/local/include/glm/ext/vector_int3_sized.hpp \
   /usr/local/include/glm/ext/vector_int4.hpp \
   /usr/local/include/glm/ext/vector_int4_sized.hpp \
+  /usr/local/include/glm/ext/vector_relational.hpp \
+  /usr/local/include/glm/ext/vector_relational.inl \
   /usr/local/include/glm/ext/vector_uint2.hpp \
   /usr/local/include/glm/ext/vector_uint2_sized.hpp \
   /usr/local/include/glm/ext/vector_uint3.hpp \
@@ -1912,10 +2039,21 @@ CMakeFiles/SENGINE2.dir/src/Material.cpp.o: /Users/sennehawer/GitKraken\ Reposit
   /usr/local/include/glm/ext/vector_uint4_sized.hpp \
   /usr/local/include/glm/common.hpp \
   /usr/local/include/glm/common.hpp \
+  /usr/local/include/glm/detail/type_mat3x3.hpp \
+  /usr/local/include/glm/detail/type_mat4x4.hpp \
+  /usr/local/include/glm/detail/type_vec3.hpp \
+  /usr/local/include/glm/detail/type_vec4.hpp \
   /usr/local/include/glm/exponential.hpp \
+  /usr/local/include/glm/ext/quaternion_common.hpp \
+  /usr/local/include/glm/ext/quaternion_geometric.hpp \
+  /usr/local/include/glm/ext/quaternion_relational.hpp \
+  /usr/local/include/glm/ext/vector_relational.hpp \
   /usr/local/include/glm/geometric.hpp \
+  /usr/local/include/glm/gtc/constants.hpp \
+  /usr/local/include/glm/gtc/matrix_transform.hpp \
   /usr/local/include/glm/matrix.hpp \
   /usr/local/include/glm/simd/platform.h \
+  /usr/local/include/glm/trigonometric.hpp \
   /usr/local/include/glm/vector_relational.hpp \
   /usr/local/include/glm/detail/compute_vector_relational.hpp \
   /usr/local/include/glm/detail/_fixes.hpp \
@@ -1943,6 +2081,7 @@ CMakeFiles/SENGINE2.dir/src/Material.cpp.o: /Users/sennehawer/GitKraken\ Reposit
   /usr/local/include/glm/detail/type_mat4x2.inl \
   /usr/local/include/glm/detail/type_mat4x3.inl \
   /usr/local/include/glm/detail/type_mat4x4.inl \
+  /usr/local/include/glm/detail/type_quat.inl \
   /usr/local/include/glm/detail/type_vec1.hpp \
   /usr/local/include/glm/detail/type_vec1.inl \
   /usr/local/include/glm/detail/type_vec2.hpp \
@@ -1955,6 +2094,65 @@ CMakeFiles/SENGINE2.dir/src/Material.cpp.o: /Users/sennehawer/GitKraken\ Reposit
   /usr/local/include/glm/fwd.hpp \
   /usr/local/include/glm/geometric.hpp \
   /usr/local/include/glm/glm.hpp \
+  /usr/local/include/glm/common.hpp \
+  /usr/local/include/glm/detail/qualifier.hpp \
+  /usr/local/include/glm/detail/setup.hpp \
+  /usr/local/include/glm/detail/type_mat3x3.hpp \
+  /usr/local/include/glm/detail/type_mat4x4.hpp \
+  /usr/local/include/glm/detail/type_vec3.hpp \
+  /usr/local/include/glm/detail/type_vec4.hpp \
+  /usr/local/include/glm/exponential.hpp \
+  /usr/local/include/glm/ext/matrix_clip_space.hpp \
+  /usr/local/include/glm/ext/matrix_projection.hpp \
+  /usr/local/include/glm/ext/matrix_transform.hpp \
+  /usr/local/include/glm/ext/quaternion_common.hpp \
+  /usr/local/include/glm/ext/quaternion_double.hpp \
+  /usr/local/include/glm/ext/quaternion_double_precision.hpp \
+  /usr/local/include/glm/ext/quaternion_float.hpp \
+  /usr/local/include/glm/ext/quaternion_float_precision.hpp \
+  /usr/local/include/glm/ext/quaternion_geometric.hpp \
+  /usr/local/include/glm/ext/quaternion_relational.hpp \
+  /usr/local/include/glm/ext/quaternion_transform.hpp \
+  /usr/local/include/glm/ext/quaternion_trigonometric.hpp \
+  /usr/local/include/glm/ext/scalar_constants.hpp \
+  /usr/local/include/glm/ext/vector_bool1.hpp \
+  /usr/local/include/glm/ext/vector_bool1_precision.hpp \
+  /usr/local/include/glm/ext/vector_double1.hpp \
+  /usr/local/include/glm/ext/vector_double1_precision.hpp \
+  /usr/local/include/glm/ext/vector_float1.hpp \
+  /usr/local/include/glm/ext/vector_float1_precision.hpp \
+  /usr/local/include/glm/ext/vector_int1.hpp \
+  /usr/local/include/glm/ext/vector_int1_sized.hpp \
+  /usr/local/include/glm/ext/vector_relational.hpp \
+  /usr/local/include/glm/ext/vector_uint1.hpp \
+  /usr/local/include/glm/ext/vector_uint1_sized.hpp \
+  /usr/local/include/glm/geometric.hpp \
+  /usr/local/include/glm/gtc/constants.hpp \
+  /usr/local/include/glm/gtc/matrix_transform.hpp \
+  /usr/local/include/glm/gtc/quaternion.hpp \
+  /usr/local/include/glm/gtc/vec1.hpp \
+  /usr/local/include/glm/mat2x2.hpp \
+  /usr/local/include/glm/mat2x3.hpp \
+  /usr/local/include/glm/mat2x4.hpp \
+  /usr/local/include/glm/mat3x2.hpp \
+  /usr/local/include/glm/mat3x3.hpp \
+  /usr/local/include/glm/mat3x4.hpp \
+  /usr/local/include/glm/mat4x2.hpp \
+  /usr/local/include/glm/mat4x3.hpp \
+  /usr/local/include/glm/mat4x4.hpp \
+  /usr/local/include/glm/matrix.hpp \
+  /usr/local/include/glm/trigonometric.hpp \
+  /usr/local/include/glm/vec2.hpp \
+  /usr/local/include/glm/vec3.hpp \
+  /usr/local/include/glm/vec4.hpp \
+  /usr/local/include/glm/vector_relational.hpp \
+  /usr/local/include/glm/gtc/constants.inl \
+  /usr/local/include/glm/gtc/epsilon.hpp \
+  /usr/local/include/glm/gtc/epsilon.inl \
+  /usr/local/include/glm/gtc/matrix_transform.inl \
+  /usr/local/include/glm/gtc/quaternion.inl \
+  /usr/local/include/glm/gtc/type_ptr.hpp \
+  /usr/local/include/glm/gtc/type_ptr.inl \
   /usr/local/include/glm/integer.hpp \
   /usr/local/include/glm/mat2x2.hpp \
   /usr/local/include/glm/mat2x3.hpp \
@@ -2807,7 +3005,10 @@ CMakeFiles/SENGINE2.dir/src/RenderSystem.cpp.o: /Users/sennehawer/GitKraken\ Rep
   /Users/sennehawer/GitKraken\ Repository/SENGINE2/src/Renderer.h \
   /Users/sennehawer/GitKraken\ Repository/SENGINE2/src/TriangleMesh.h \
   /Users/sennehawer/GitKraken\ Repository/SENGINE2/src/config.h \
+  /usr/local/include/glm/common.hpp \
+  /usr/local/include/glm/detail/qualifier.hpp \
   /usr/local/include/glm/detail/setup.hpp \
+  /usr/local/include/glm/detail/type_float.hpp \
   /usr/local/include/glm/detail/type_mat2x2.hpp \
   /usr/local/include/glm/detail/type_mat2x3.hpp \
   /usr/local/include/glm/detail/type_mat2x4.hpp \
@@ -2817,17 +3018,31 @@ CMakeFiles/SENGINE2.dir/src/RenderSystem.cpp.o: /Users/sennehawer/GitKraken\ Rep
   /usr/local/include/glm/detail/type_mat4x2.hpp \
   /usr/local/include/glm/detail/type_mat4x3.hpp \
   /usr/local/include/glm/detail/type_mat4x4.hpp \
+  /usr/local/include/glm/detail/type_quat.hpp \
+  /usr/local/include/glm/detail/type_vec1.hpp \
   /usr/local/include/glm/detail/type_vec2.hpp \
   /usr/local/include/glm/detail/type_vec3.hpp \
   /usr/local/include/glm/detail/type_vec4.hpp \
+  /usr/local/include/glm/exponential.hpp \
+  /usr/local/include/glm/ext/quaternion_geometric.hpp \
+  /usr/local/include/glm/ext/scalar_constants.hpp \
   /usr/local/include/glm/ext/scalar_int_sized.hpp \
   /usr/local/include/glm/ext/scalar_uint_sized.hpp \
+  /usr/local/include/glm/ext/vector_int1.hpp \
   /usr/local/include/glm/ext/vector_int2.hpp \
   /usr/local/include/glm/ext/vector_int3.hpp \
   /usr/local/include/glm/ext/vector_int4.hpp \
+  /usr/local/include/glm/ext/vector_relational.hpp \
+  /usr/local/include/glm/ext/vector_uint1.hpp \
   /usr/local/include/glm/ext/vector_uint2.hpp \
   /usr/local/include/glm/ext/vector_uint3.hpp \
   /usr/local/include/glm/ext/vector_uint4.hpp \
+  /usr/local/include/glm/geometric.hpp \
+  /usr/local/include/glm/gtc/constants.hpp \
+  /usr/local/include/glm/matrix.hpp \
+  /usr/local/include/glm/trigonometric.hpp \
+  /usr/local/include/glm/vector_relational.hpp \
+  /usr/local/include/glm/ext/matrix_clip_space.inl \
   /usr/local/include/glm/ext/matrix_double2x2.hpp \
   /usr/local/include/glm/ext/matrix_double2x2_precision.hpp \
   /usr/local/include/glm/ext/matrix_double2x3.hpp \
@@ -2864,6 +3079,15 @@ CMakeFiles/SENGINE2.dir/src/RenderSystem.cpp.o: /Users/sennehawer/GitKraken\ Rep
   /usr/local/include/glm/ext/matrix_float4x3_precision.hpp \
   /usr/local/include/glm/ext/matrix_float4x4.hpp \
   /usr/local/include/glm/ext/matrix_float4x4_precision.hpp \
+  /usr/local/include/glm/ext/matrix_projection.inl \
+  /usr/local/include/glm/ext/matrix_transform.inl \
+  /usr/local/include/glm/ext/quaternion_common.inl \
+  /usr/local/include/glm/ext/quaternion_geometric.inl \
+  /usr/local/include/glm/ext/quaternion_relational.inl \
+  /usr/local/include/glm/ext/quaternion_transform.inl \
+  /usr/local/include/glm/ext/quaternion_trigonometric.inl \
+  /usr/local/include/glm/ext/scalar_constants.hpp \
+  /usr/local/include/glm/ext/scalar_constants.inl \
   /usr/local/include/glm/ext/vector_bool2.hpp \
   /usr/local/include/glm/ext/vector_bool2_precision.hpp \
   /usr/local/include/glm/ext/vector_bool3.hpp \
@@ -2888,6 +3112,8 @@ CMakeFiles/SENGINE2.dir/src/RenderSystem.cpp.o: /Users/sennehawer/GitKraken\ Rep
   /usr/local/include/glm/ext/vector_int3_sized.hpp \
   /usr/local/include/glm/ext/vector_int4.hpp \
   /usr/local/include/glm/ext/vector_int4_sized.hpp \
+  /usr/local/include/glm/ext/vector_relational.hpp \
+  /usr/local/include/glm/ext/vector_relational.inl \
   /usr/local/include/glm/ext/vector_uint2.hpp \
   /usr/local/include/glm/ext/vector_uint2_sized.hpp \
   /usr/local/include/glm/ext/vector_uint3.hpp \
@@ -2896,10 +3122,21 @@ CMakeFiles/SENGINE2.dir/src/RenderSystem.cpp.o: /Users/sennehawer/GitKraken\ Rep
   /usr/local/include/glm/ext/vector_uint4_sized.hpp \
   /usr/local/include/glm/common.hpp \
   /usr/local/include/glm/common.hpp \
+  /usr/local/include/glm/detail/type_mat3x3.hpp \
+  /usr/local/include/glm/detail/type_mat4x4.hpp \
+  /usr/local/include/glm/detail/type_vec3.hpp \
+  /usr/local/include/glm/detail/type_vec4.hpp \
   /usr/local/include/glm/exponential.hpp \
+  /usr/local/include/glm/ext/quaternion_common.hpp \
+  /usr/local/include/glm/ext/quaternion_geometric.hpp \
+  /usr/local/include/glm/ext/quaternion_relational.hpp \
+  /usr/local/include/glm/ext/vector_relational.hpp \
   /usr/local/include/glm/geometric.hpp \
+  /usr/local/include/glm/gtc/constants.hpp \
+  /usr/local/include/glm/gtc/matrix_transform.hpp \
   /usr/local/include/glm/matrix.hpp \
   /usr/local/include/glm/simd/platform.h \
+  /usr/local/include/glm/trigonometric.hpp \
   /usr/local/include/glm/vector_relational.hpp \
   /usr/local/include/glm/detail/compute_vector_relational.hpp \
   /usr/local/include/glm/detail/_fixes.hpp \
@@ -2927,6 +3164,7 @@ CMakeFiles/SENGINE2.dir/src/RenderSystem.cpp.o: /Users/sennehawer/GitKraken\ Rep
   /usr/local/include/glm/detail/type_mat4x2.inl \
   /usr/local/include/glm/detail/type_mat4x3.inl \
   /usr/local/include/glm/detail/type_mat4x4.inl \
+  /usr/local/include/glm/detail/type_quat.inl \
   /usr/local/include/glm/detail/type_vec1.hpp \
   /usr/local/include/glm/detail/type_vec1.inl \
   /usr/local/include/glm/detail/type_vec2.hpp \
@@ -2939,6 +3177,65 @@ CMakeFiles/SENGINE2.dir/src/RenderSystem.cpp.o: /Users/sennehawer/GitKraken\ Rep
   /usr/local/include/glm/fwd.hpp \
   /usr/local/include/glm/geometric.hpp \
   /usr/local/include/glm/glm.hpp \
+  /usr/local/include/glm/common.hpp \
+  /usr/local/include/glm/detail/qualifier.hpp \
+  /usr/local/include/glm/detail/setup.hpp \
+  /usr/local/include/glm/detail/type_mat3x3.hpp \
+  /usr/local/include/glm/detail/type_mat4x4.hpp \
+  /usr/local/include/glm/detail/type_vec3.hpp \
+  /usr/local/include/glm/detail/type_vec4.hpp \
+  /usr/local/include/glm/exponential.hpp \
+  /usr/local/include/glm/ext/matrix_clip_space.hpp \
+  /usr/local/include/glm/ext/matrix_projection.hpp \
+  /usr/local/include/glm/ext/matrix_transform.hpp \
+  /usr/local/include/glm/ext/quaternion_common.hpp \
+  /usr/local/include/glm/ext/quaternion_double.hpp \
+  /usr/local/include/glm/ext/quaternion_double_precision.hpp \
+  /usr/local/include/glm/ext/quaternion_float.hpp \
+  /usr/local/include/glm/ext/quaternion_float_precision.hpp \
+  /usr/local/include/glm/ext/quaternion_geometric.hpp \
+  /usr/local/include/glm/ext/quaternion_relational.hpp \
+  /usr/local/include/glm/ext/quaternion_transform.hpp \
+  /usr/local/include/glm/ext/quaternion_trigonometric.hpp \
+  /usr/local/include/glm/ext/scalar_constants.hpp \
+  /usr/local/include/glm/ext/vector_bool1.hpp \
+  /usr/local/include/glm/ext/vector_bool1_precision.hpp \
+  /usr/local/include/glm/ext/vector_double1.hpp \
+  /usr/local/include/glm/ext/vector_double1_precision.hpp \
+  /usr/local/include/glm/ext/vector_float1.hpp \
+  /usr/local/include/glm/ext/vector_float1_precision.hpp \
+  /usr/local/include/glm/ext/vector_int1.hpp \
+  /usr/local/include/glm/ext/vector_int1_sized.hpp \
+  /usr/local/include/glm/ext/vector_relational.hpp \
+  /usr/local/include/glm/ext/vector_uint1.hpp \
+  /usr/local/include/glm/ext/vector_uint1_sized.hpp \
+  /usr/local/include/glm/geometric.hpp \
+  /usr/local/include/glm/gtc/constants.hpp \
+  /usr/local/include/glm/gtc/matrix_transform.hpp \
+  /usr/local/include/glm/gtc/quaternion.hpp \
+  /usr/local/include/glm/gtc/vec1.hpp \
+  /usr/local/include/glm/mat2x2.hpp \
+  /usr/local/include/glm/mat2x3.hpp \
+  /usr/local/include/glm/mat2x4.hpp \
+  /usr/local/include/glm/mat3x2.hpp \
+  /usr/local/include/glm/mat3x3.hpp \
+  /usr/local/include/glm/mat3x4.hpp \
+  /usr/local/include/glm/mat4x2.hpp \
+  /usr/local/include/glm/mat4x3.hpp \
+  /usr/local/include/glm/mat4x4.hpp \
+  /usr/local/include/glm/matrix.hpp \
+  /usr/local/include/glm/trigonometric.hpp \
+  /usr/local/include/glm/vec2.hpp \
+  /usr/local/include/glm/vec3.hpp \
+  /usr/local/include/glm/vec4.hpp \
+  /usr/local/include/glm/vector_relational.hpp \
+  /usr/local/include/glm/gtc/constants.inl \
+  /usr/local/include/glm/gtc/epsilon.hpp \
+  /usr/local/include/glm/gtc/epsilon.inl \
+  /usr/local/include/glm/gtc/matrix_transform.inl \
+  /usr/local/include/glm/gtc/quaternion.inl \
+  /usr/local/include/glm/gtc/type_ptr.hpp \
+  /usr/local/include/glm/gtc/type_ptr.inl \
   /usr/local/include/glm/integer.hpp \
   /usr/local/include/glm/mat2x2.hpp \
   /usr/local/include/glm/mat2x3.hpp \
@@ -4870,7 +5167,10 @@ CMakeFiles/SENGINE2.dir/src/Scene.cpp.o: /Users/sennehawer/GitKraken\ Repository
   /Users/sennehawer/GitKraken\ Repository/SENGINE2/dependencies/glad/glad.h \
   /Users/sennehawer/GitKraken\ Repository/SENGINE2/src/Scene.h \
   /Users/sennehawer/GitKraken\ Repository/SENGINE2/src/config.h \
+  /usr/local/include/glm/common.hpp \
+  /usr/local/include/glm/detail/qualifier.hpp \
   /usr/local/include/glm/detail/setup.hpp \
+  /usr/local/include/glm/detail/type_float.hpp \
   /usr/local/include/glm/detail/type_mat2x2.hpp \
   /usr/local/include/glm/detail/type_mat2x3.hpp \
   /usr/local/include/glm/detail/type_mat2x4.hpp \
@@ -4880,17 +5180,31 @@ CMakeFiles/SENGINE2.dir/src/Scene.cpp.o: /Users/sennehawer/GitKraken\ Repository
   /usr/local/include/glm/detail/type_mat4x2.hpp \
   /usr/local/include/glm/detail/type_mat4x3.hpp \
   /usr/local/include/glm/detail/type_mat4x4.hpp \
+  /usr/local/include/glm/detail/type_quat.hpp \
+  /usr/local/include/glm/detail/type_vec1.hpp \
   /usr/local/include/glm/detail/type_vec2.hpp \
   /usr/local/include/glm/detail/type_vec3.hpp \
   /usr/local/include/glm/detail/type_vec4.hpp \
+  /usr/local/include/glm/exponential.hpp \
+  /usr/local/include/glm/ext/quaternion_geometric.hpp \
+  /usr/local/include/glm/ext/scalar_constants.hpp \
   /usr/local/include/glm/ext/scalar_int_sized.hpp \
   /usr/local/include/glm/ext/scalar_uint_sized.hpp \
+  /usr/local/include/glm/ext/vector_int1.hpp \
   /usr/local/include/glm/ext/vector_int2.hpp \
   /usr/local/include/glm/ext/vector_int3.hpp \
   /usr/local/include/glm/ext/vector_int4.hpp \
+  /usr/local/include/glm/ext/vector_relational.hpp \
+  /usr/local/include/glm/ext/vector_uint1.hpp \
   /usr/local/include/glm/ext/vector_uint2.hpp \
   /usr/local/include/glm/ext/vector_uint3.hpp \
   /usr/local/include/glm/ext/vector_uint4.hpp \
+  /usr/local/include/glm/geometric.hpp \
+  /usr/local/include/glm/gtc/constants.hpp \
+  /usr/local/include/glm/matrix.hpp \
+  /usr/local/include/glm/trigonometric.hpp \
+  /usr/local/include/glm/vector_relational.hpp \
+  /usr/local/include/glm/ext/matrix_clip_space.inl \
   /usr/local/include/glm/ext/matrix_double2x2.hpp \
   /usr/local/include/glm/ext/matrix_double2x2_precision.hpp \
   /usr/local/include/glm/ext/matrix_double2x3.hpp \
@@ -4927,6 +5241,15 @@ CMakeFiles/SENGINE2.dir/src/Scene.cpp.o: /Users/sennehawer/GitKraken\ Repository
   /usr/local/include/glm/ext/matrix_float4x3_precision.hpp \
   /usr/local/include/glm/ext/matrix_float4x4.hpp \
   /usr/local/include/glm/ext/matrix_float4x4_precision.hpp \
+  /usr/local/include/glm/ext/matrix_projection.inl \
+  /usr/local/include/glm/ext/matrix_transform.inl \
+  /usr/local/include/glm/ext/quaternion_common.inl \
+  /usr/local/include/glm/ext/quaternion_geometric.inl \
+  /usr/local/include/glm/ext/quaternion_relational.inl \
+  /usr/local/include/glm/ext/quaternion_transform.inl \
+  /usr/local/include/glm/ext/quaternion_trigonometric.inl \
+  /usr/local/include/glm/ext/scalar_constants.hpp \
+  /usr/local/include/glm/ext/scalar_constants.inl \
   /usr/local/include/glm/ext/vector_bool2.hpp \
   /usr/local/include/glm/ext/vector_bool2_precision.hpp \
   /usr/local/include/glm/ext/vector_bool3.hpp \
@@ -4951,6 +5274,8 @@ CMakeFiles/SENGINE2.dir/src/Scene.cpp.o: /Users/sennehawer/GitKraken\ Repository
   /usr/local/include/glm/ext/vector_int3_sized.hpp \
   /usr/local/include/glm/ext/vector_int4.hpp \
   /usr/local/include/glm/ext/vector_int4_sized.hpp \
+  /usr/local/include/glm/ext/vector_relational.hpp \
+  /usr/local/include/glm/ext/vector_relational.inl \
   /usr/local/include/glm/ext/vector_uint2.hpp \
   /usr/local/include/glm/ext/vector_uint2_sized.hpp \
   /usr/local/include/glm/ext/vector_uint3.hpp \
@@ -4959,10 +5284,21 @@ CMakeFiles/SENGINE2.dir/src/Scene.cpp.o: /Users/sennehawer/GitKraken\ Repository
   /usr/local/include/glm/ext/vector_uint4_sized.hpp \
   /usr/local/include/glm/common.hpp \
   /usr/local/include/glm/common.hpp \
+  /usr/local/include/glm/detail/type_mat3x3.hpp \
+  /usr/local/include/glm/detail/type_mat4x4.hpp \
+  /usr/local/include/glm/detail/type_vec3.hpp \
+  /usr/local/include/glm/detail/type_vec4.hpp \
   /usr/local/include/glm/exponential.hpp \
+  /usr/local/include/glm/ext/quaternion_common.hpp \
+  /usr/local/include/glm/ext/quaternion_geometric.hpp \
+  /usr/local/include/glm/ext/quaternion_relational.hpp \
+  /usr/local/include/glm/ext/vector_relational.hpp \
   /usr/local/include/glm/geometric.hpp \
+  /usr/local/include/glm/gtc/constants.hpp \
+  /usr/local/include/glm/gtc/matrix_transform.hpp \
   /usr/local/include/glm/matrix.hpp \
   /usr/local/include/glm/simd/platform.h \
+  /usr/local/include/glm/trigonometric.hpp \
   /usr/local/include/glm/vector_relational.hpp \
   /usr/local/include/glm/detail/compute_vector_relational.hpp \
   /usr/local/include/glm/detail/_fixes.hpp \
@@ -4990,6 +5326,7 @@ CMakeFiles/SENGINE2.dir/src/Scene.cpp.o: /Users/sennehawer/GitKraken\ Repository
   /usr/local/include/glm/detail/type_mat4x2.inl \
   /usr/local/include/glm/detail/type_mat4x3.inl \
   /usr/local/include/glm/detail/type_mat4x4.inl \
+  /usr/local/include/glm/detail/type_quat.inl \
   /usr/local/include/glm/detail/type_vec1.hpp \
   /usr/local/include/glm/detail/type_vec1.inl \
   /usr/local/include/glm/detail/type_vec2.hpp \
@@ -5002,6 +5339,65 @@ CMakeFiles/SENGINE2.dir/src/Scene.cpp.o: /Users/sennehawer/GitKraken\ Repository
   /usr/local/include/glm/fwd.hpp \
   /usr/local/include/glm/geometric.hpp \
   /usr/local/include/glm/glm.hpp \
+  /usr/local/include/glm/common.hpp \
+  /usr/local/include/glm/detail/qualifier.hpp \
+  /usr/local/include/glm/detail/setup.hpp \
+  /usr/local/include/glm/detail/type_mat3x3.hpp \
+  /usr/local/include/glm/detail/type_mat4x4.hpp \
+  /usr/local/include/glm/detail/type_vec3.hpp \
+  /usr/local/include/glm/detail/type_vec4.hpp \
+  /usr/local/include/glm/exponential.hpp \
+  /usr/local/include/glm/ext/matrix_clip_space.hpp \
+  /usr/local/include/glm/ext/matrix_projection.hpp \
+  /usr/local/include/glm/ext/matrix_transform.hpp \
+  /usr/local/include/glm/ext/quaternion_common.hpp \
+  /usr/local/include/glm/ext/quaternion_double.hpp \
+  /usr/local/include/glm/ext/quaternion_double_precision.hpp \
+  /usr/local/include/glm/ext/quaternion_float.hpp \
+  /usr/local/include/glm/ext/quaternion_float_precision.hpp \
+  /usr/local/include/glm/ext/quaternion_geometric.hpp \
+  /usr/local/include/glm/ext/quaternion_relational.hpp \
+  /usr/local/include/glm/ext/quaternion_transform.hpp \
+  /usr/local/include/glm/ext/quaternion_trigonometric.hpp \
+  /usr/local/include/glm/ext/scalar_constants.hpp \
+  /usr/local/include/glm/ext/vector_bool1.hpp \
+  /usr/local/include/glm/ext/vector_bool1_precision.hpp \
+  /usr/local/include/glm/ext/vector_double1.hpp \
+  /usr/local/include/glm/ext/vector_double1_precision.hpp \
+  /usr/local/include/glm/ext/vector_float1.hpp \
+  /usr/local/include/glm/ext/vector_float1_precision.hpp \
+  /usr/local/include/glm/ext/vector_int1.hpp \
+  /usr/local/include/glm/ext/vector_int1_sized.hpp \
+  /usr/local/include/glm/ext/vector_relational.hpp \
+  /usr/local/include/glm/ext/vector_uint1.hpp \
+  /usr/local/include/glm/ext/vector_uint1_sized.hpp \
+  /usr/local/include/glm/geometric.hpp \
+  /usr/local/include/glm/gtc/constants.hpp \
+  /usr/local/include/glm/gtc/matrix_transform.hpp \
+  /usr/local/include/glm/gtc/quaternion.hpp \
+  /usr/local/include/glm/gtc/vec1.hpp \
+  /usr/local/include/glm/mat2x2.hpp \
+  /usr/local/include/glm/mat2x3.hpp \
+  /usr/local/include/glm/mat2x4.hpp \
+  /usr/local/include/glm/mat3x2.hpp \
+  /usr/local/include/glm/mat3x3.hpp \
+  /usr/local/include/glm/mat3x4.hpp \
+  /usr/local/include/glm/mat4x2.hpp \
+  /usr/local/include/glm/mat4x3.hpp \
+  /usr/local/include/glm/mat4x4.hpp \
+  /usr/local/include/glm/matrix.hpp \
+  /usr/local/include/glm/trigonometric.hpp \
+  /usr/local/include/glm/vec2.hpp \
+  /usr/local/include/glm/vec3.hpp \
+  /usr/local/include/glm/vec4.hpp \
+  /usr/local/include/glm/vector_relational.hpp \
+  /usr/local/include/glm/gtc/constants.inl \
+  /usr/local/include/glm/gtc/epsilon.hpp \
+  /usr/local/include/glm/gtc/epsilon.inl \
+  /usr/local/include/glm/gtc/matrix_transform.inl \
+  /usr/local/include/glm/gtc/quaternion.inl \
+  /usr/local/include/glm/gtc/type_ptr.hpp \
+  /usr/local/include/glm/gtc/type_ptr.inl \
   /usr/local/include/glm/integer.hpp \
   /usr/local/include/glm/mat2x2.hpp \
   /usr/local/include/glm/mat2x3.hpp \
@@ -6647,7 +7043,10 @@ CMakeFiles/SENGINE2.dir/src/Window.cpp.o: /Users/sennehawer/GitKraken\ Repositor
   /Users/sennehawer/GitKraken\ Repository/SENGINE2/dependencies/glad/glad.h \
   /Users/sennehawer/GitKraken\ Repository/SENGINE2/src/Window.h \
   /Users/sennehawer/GitKraken\ Repository/SENGINE2/src/config.h \
+  /usr/local/include/glm/common.hpp \
+  /usr/local/include/glm/detail/qualifier.hpp \
   /usr/local/include/glm/detail/setup.hpp \
+  /usr/local/include/glm/detail/type_float.hpp \
   /usr/local/include/glm/detail/type_mat2x2.hpp \
   /usr/local/include/glm/detail/type_mat2x3.hpp \
   /usr/local/include/glm/detail/type_mat2x4.hpp \
@@ -6657,17 +7056,31 @@ CMakeFiles/SENGINE2.dir/src/Window.cpp.o: /Users/sennehawer/GitKraken\ Repositor
   /usr/local/include/glm/detail/type_mat4x2.hpp \
   /usr/local/include/glm/detail/type_mat4x3.hpp \
   /usr/local/include/glm/detail/type_mat4x4.hpp \
+  /usr/local/include/glm/detail/type_quat.hpp \
+  /usr/local/include/glm/detail/type_vec1.hpp \
   /usr/local/include/glm/detail/type_vec2.hpp \
   /usr/local/include/glm/detail/type_vec3.hpp \
   /usr/local/include/glm/detail/type_vec4.hpp \
+  /usr/local/include/glm/exponential.hpp \
+  /usr/local/include/glm/ext/quaternion_geometric.hpp \
+  /usr/local/include/glm/ext/scalar_constants.hpp \
   /usr/local/include/glm/ext/scalar_int_sized.hpp \
   /usr/local/include/glm/ext/scalar_uint_sized.hpp \
+  /usr/local/include/glm/ext/vector_int1.hpp \
   /usr/local/include/glm/ext/vector_int2.hpp \
   /usr/local/include/glm/ext/vector_int3.hpp \
   /usr/local/include/glm/ext/vector_int4.hpp \
+  /usr/local/include/glm/ext/vector_relational.hpp \
+  /usr/local/include/glm/ext/vector_uint1.hpp \
   /usr/local/include/glm/ext/vector_uint2.hpp \
   /usr/local/include/glm/ext/vector_uint3.hpp \
   /usr/local/include/glm/ext/vector_uint4.hpp \
+  /usr/local/include/glm/geometric.hpp \
+  /usr/local/include/glm/gtc/constants.hpp \
+  /usr/local/include/glm/matrix.hpp \
+  /usr/local/include/glm/trigonometric.hpp \
+  /usr/local/include/glm/vector_relational.hpp \
+  /usr/local/include/glm/ext/matrix_clip_space.inl \
   /usr/local/include/glm/ext/matrix_double2x2.hpp \
   /usr/local/include/glm/ext/matrix_double2x2_precision.hpp \
   /usr/local/include/glm/ext/matrix_double2x3.hpp \
@@ -6704,6 +7117,15 @@ CMakeFiles/SENGINE2.dir/src/Window.cpp.o: /Users/sennehawer/GitKraken\ Repositor
   /usr/local/include/glm/ext/matrix_float4x3_precision.hpp \
   /usr/local/include/glm/ext/matrix_float4x4.hpp \
   /usr/local/include/glm/ext/matrix_float4x4_precision.hpp \
+  /usr/local/include/glm/ext/matrix_projection.inl \
+  /usr/local/include/glm/ext/matrix_transform.inl \
+  /usr/local/include/glm/ext/quaternion_common.inl \
+  /usr/local/include/glm/ext/quaternion_geometric.inl \
+  /usr/local/include/glm/ext/quaternion_relational.inl \
+  /usr/local/include/glm/ext/quaternion_transform.inl \
+  /usr/local/include/glm/ext/quaternion_trigonometric.inl \
+  /usr/local/include/glm/ext/scalar_constants.hpp \
+  /usr/local/include/glm/ext/scalar_constants.inl \
   /usr/local/include/glm/ext/vector_bool2.hpp \
   /usr/local/include/glm/ext/vector_bool2_precision.hpp \
   /usr/local/include/glm/ext/vector_bool3.hpp \
@@ -6728,6 +7150,8 @@ CMakeFiles/SENGINE2.dir/src/Window.cpp.o: /Users/sennehawer/GitKraken\ Repositor
   /usr/local/include/glm/ext/vector_int3_sized.hpp \
   /usr/local/include/glm/ext/vector_int4.hpp \
   /usr/local/include/glm/ext/vector_int4_sized.hpp \
+  /usr/local/include/glm/ext/vector_relational.hpp \
+  /usr/local/include/glm/ext/vector_relational.inl \
   /usr/local/include/glm/ext/vector_uint2.hpp \
   /usr/local/include/glm/ext/vector_uint2_sized.hpp \
   /usr/local/include/glm/ext/vector_uint3.hpp \
@@ -6736,10 +7160,21 @@ CMakeFiles/SENGINE2.dir/src/Window.cpp.o: /Users/sennehawer/GitKraken\ Repositor
   /usr/local/include/glm/ext/vector_uint4_sized.hpp \
   /usr/local/include/glm/common.hpp \
   /usr/local/include/glm/common.hpp \
+  /usr/local/include/glm/detail/type_mat3x3.hpp \
+  /usr/local/include/glm/detail/type_mat4x4.hpp \
+  /usr/local/include/glm/detail/type_vec3.hpp \
+  /usr/local/include/glm/detail/type_vec4.hpp \
   /usr/local/include/glm/exponential.hpp \
+  /usr/local/include/glm/ext/quaternion_common.hpp \
+  /usr/local/include/glm/ext/quaternion_geometric.hpp \
+  /usr/local/include/glm/ext/quaternion_relational.hpp \
+  /usr/local/include/glm/ext/vector_relational.hpp \
   /usr/local/include/glm/geometric.hpp \
+  /usr/local/include/glm/gtc/constants.hpp \
+  /usr/local/include/glm/gtc/matrix_transform.hpp \
   /usr/local/include/glm/matrix.hpp \
   /usr/local/include/glm/simd/platform.h \
+  /usr/local/include/glm/trigonometric.hpp \
   /usr/local/include/glm/vector_relational.hpp \
   /usr/local/include/glm/detail/compute_vector_relational.hpp \
   /usr/local/include/glm/detail/_fixes.hpp \
@@ -6767,6 +7202,7 @@ CMakeFiles/SENGINE2.dir/src/Window.cpp.o: /Users/sennehawer/GitKraken\ Repositor
   /usr/local/include/glm/detail/type_mat4x2.inl \
   /usr/local/include/glm/detail/type_mat4x3.inl \
   /usr/local/include/glm/detail/type_mat4x4.inl \
+  /usr/local/include/glm/detail/type_quat.inl \
   /usr/local/include/glm/detail/type_vec1.hpp \
   /usr/local/include/glm/detail/type_vec1.inl \
   /usr/local/include/glm/detail/type_vec2.hpp \
@@ -6779,6 +7215,65 @@ CMakeFiles/SENGINE2.dir/src/Window.cpp.o: /Users/sennehawer/GitKraken\ Repositor
   /usr/local/include/glm/fwd.hpp \
   /usr/local/include/glm/geometric.hpp \
   /usr/local/include/glm/glm.hpp \
+  /usr/local/include/glm/common.hpp \
+  /usr/local/include/glm/detail/qualifier.hpp \
+  /usr/local/include/glm/detail/setup.hpp \
+  /usr/local/include/glm/detail/type_mat3x3.hpp \
+  /usr/local/include/glm/detail/type_mat4x4.hpp \
+  /usr/local/include/glm/detail/type_vec3.hpp \
+  /usr/local/include/glm/detail/type_vec4.hpp \
+  /usr/local/include/glm/exponential.hpp \
+  /usr/local/include/glm/ext/matrix_clip_space.hpp \
+  /usr/local/include/glm/ext/matrix_projection.hpp \
+  /usr/local/include/glm/ext/matrix_transform.hpp \
+  /usr/local/include/glm/ext/quaternion_common.hpp \
+  /usr/local/include/glm/ext/quaternion_double.hpp \
+  /usr/local/include/glm/ext/quaternion_double_precision.hpp \
+  /usr/local/include/glm/ext/quaternion_float.hpp \
+  /usr/local/include/glm/ext/quaternion_float_precision.hpp \
+  /usr/local/include/glm/ext/quaternion_geometric.hpp \
+  /usr/local/include/glm/ext/quaternion_relational.hpp \
+  /usr/local/include/glm/ext/quaternion_transform.hpp \
+  /usr/local/include/glm/ext/quaternion_trigonometric.hpp \
+  /usr/local/include/glm/ext/scalar_constants.hpp \
+  /usr/local/include/glm/ext/vector_bool1.hpp \
+  /usr/local/include/glm/ext/vector_bool1_precision.hpp \
+  /usr/local/include/glm/ext/vector_double1.hpp \
+  /usr/local/include/glm/ext/vector_double1_precision.hpp \
+  /usr/local/include/glm/ext/vector_float1.hpp \
+  /usr/local/include/glm/ext/vector_float1_precision.hpp \
+  /usr/local/include/glm/ext/vector_int1.hpp \
+  /usr/local/include/glm/ext/vector_int1_sized.hpp \
+  /usr/local/include/glm/ext/vector_relational.hpp \
+  /usr/local/include/glm/ext/vector_uint1.hpp \
+  /usr/local/include/glm/ext/vector_uint1_sized.hpp \
+  /usr/local/include/glm/geometric.hpp \
+  /usr/local/include/glm/gtc/constants.hpp \
+  /usr/local/include/glm/gtc/matrix_transform.hpp \
+  /usr/local/include/glm/gtc/quaternion.hpp \
+  /usr/local/include/glm/gtc/vec1.hpp \
+  /usr/local/include/glm/mat2x2.hpp \
+  /usr/local/include/glm/mat2x3.hpp \
+  /usr/local/include/glm/mat2x4.hpp \
+  /usr/local/include/glm/mat3x2.hpp \
+  /usr/local/include/glm/mat3x3.hpp \
+  /usr/local/include/glm/mat3x4.hpp \
+  /usr/local/include/glm/mat4x2.hpp \
+  /usr/local/include/glm/mat4x3.hpp \
+  /usr/local/include/glm/mat4x4.hpp \
+  /usr/local/include/glm/matrix.hpp \
+  /usr/local/include/glm/trigonometric.hpp \
+  /usr/local/include/glm/vec2.hpp \
+  /usr/local/include/glm/vec3.hpp \
+  /usr/local/include/glm/vec4.hpp \
+  /usr/local/include/glm/vector_relational.hpp \
+  /usr/local/include/glm/gtc/constants.inl \
+  /usr/local/include/glm/gtc/epsilon.hpp \
+  /usr/local/include/glm/gtc/epsilon.inl \
+  /usr/local/include/glm/gtc/matrix_transform.inl \
+  /usr/local/include/glm/gtc/quaternion.inl \
+  /usr/local/include/glm/gtc/type_ptr.hpp \
+  /usr/local/include/glm/gtc/type_ptr.inl \
   /usr/local/include/glm/integer.hpp \
   /usr/local/include/glm/mat2x2.hpp \
   /usr/local/include/glm/mat2x3.hpp \
@@ -7632,7 +8127,10 @@ CMakeFiles/SENGINE2.dir/src/config.cpp.o: /Users/sennehawer/GitKraken\ Repositor
   /Users/sennehawer/GitKraken\ Repository/SENGINE2/dependencies/glad/glad.h \
   /Users/sennehawer/GitKraken\ Repository/SENGINE2/src/config.h \
   /Users/sennehawer/GitKraken\ Repository/SENGINE2/src/stb_image.h \
+  /usr/local/include/glm/common.hpp \
+  /usr/local/include/glm/detail/qualifier.hpp \
   /usr/local/include/glm/detail/setup.hpp \
+  /usr/local/include/glm/detail/type_float.hpp \
   /usr/local/include/glm/detail/type_mat2x2.hpp \
   /usr/local/include/glm/detail/type_mat2x3.hpp \
   /usr/local/include/glm/detail/type_mat2x4.hpp \
@@ -7642,17 +8140,31 @@ CMakeFiles/SENGINE2.dir/src/config.cpp.o: /Users/sennehawer/GitKraken\ Repositor
   /usr/local/include/glm/detail/type_mat4x2.hpp \
   /usr/local/include/glm/detail/type_mat4x3.hpp \
   /usr/local/include/glm/detail/type_mat4x4.hpp \
+  /usr/local/include/glm/detail/type_quat.hpp \
+  /usr/local/include/glm/detail/type_vec1.hpp \
   /usr/local/include/glm/detail/type_vec2.hpp \
   /usr/local/include/glm/detail/type_vec3.hpp \
   /usr/local/include/glm/detail/type_vec4.hpp \
+  /usr/local/include/glm/exponential.hpp \
+  /usr/local/include/glm/ext/quaternion_geometric.hpp \
+  /usr/local/include/glm/ext/scalar_constants.hpp \
   /usr/local/include/glm/ext/scalar_int_sized.hpp \
   /usr/local/include/glm/ext/scalar_uint_sized.hpp \
+  /usr/local/include/glm/ext/vector_int1.hpp \
   /usr/local/include/glm/ext/vector_int2.hpp \
   /usr/local/include/glm/ext/vector_int3.hpp \
   /usr/local/include/glm/ext/vector_int4.hpp \
+  /usr/local/include/glm/ext/vector_relational.hpp \
+  /usr/local/include/glm/ext/vector_uint1.hpp \
   /usr/local/include/glm/ext/vector_uint2.hpp \
   /usr/local/include/glm/ext/vector_uint3.hpp \
   /usr/local/include/glm/ext/vector_uint4.hpp \
+  /usr/local/include/glm/geometric.hpp \
+  /usr/local/include/glm/gtc/constants.hpp \
+  /usr/local/include/glm/matrix.hpp \
+  /usr/local/include/glm/trigonometric.hpp \
+  /usr/local/include/glm/vector_relational.hpp \
+  /usr/local/include/glm/ext/matrix_clip_space.inl \
   /usr/local/include/glm/ext/matrix_double2x2.hpp \
   /usr/local/include/glm/ext/matrix_double2x2_precision.hpp \
   /usr/local/include/glm/ext/matrix_double2x3.hpp \
@@ -7689,6 +8201,15 @@ CMakeFiles/SENGINE2.dir/src/config.cpp.o: /Users/sennehawer/GitKraken\ Repositor
   /usr/local/include/glm/ext/matrix_float4x3_precision.hpp \
   /usr/local/include/glm/ext/matrix_float4x4.hpp \
   /usr/local/include/glm/ext/matrix_float4x4_precision.hpp \
+  /usr/local/include/glm/ext/matrix_projection.inl \
+  /usr/local/include/glm/ext/matrix_transform.inl \
+  /usr/local/include/glm/ext/quaternion_common.inl \
+  /usr/local/include/glm/ext/quaternion_geometric.inl \
+  /usr/local/include/glm/ext/quaternion_relational.inl \
+  /usr/local/include/glm/ext/quaternion_transform.inl \
+  /usr/local/include/glm/ext/quaternion_trigonometric.inl \
+  /usr/local/include/glm/ext/scalar_constants.hpp \
+  /usr/local/include/glm/ext/scalar_constants.inl \
   /usr/local/include/glm/ext/vector_bool2.hpp \
   /usr/local/include/glm/ext/vector_bool2_precision.hpp \
   /usr/local/include/glm/ext/vector_bool3.hpp \
@@ -7713,6 +8234,8 @@ CMakeFiles/SENGINE2.dir/src/config.cpp.o: /Users/sennehawer/GitKraken\ Repositor
   /usr/local/include/glm/ext/vector_int3_sized.hpp \
   /usr/local/include/glm/ext/vector_int4.hpp \
   /usr/local/include/glm/ext/vector_int4_sized.hpp \
+  /usr/local/include/glm/ext/vector_relational.hpp \
+  /usr/local/include/glm/ext/vector_relational.inl \
   /usr/local/include/glm/ext/vector_uint2.hpp \
   /usr/local/include/glm/ext/vector_uint2_sized.hpp \
   /usr/local/include/glm/ext/vector_uint3.hpp \
@@ -7721,10 +8244,21 @@ CMakeFiles/SENGINE2.dir/src/config.cpp.o: /Users/sennehawer/GitKraken\ Repositor
   /usr/local/include/glm/ext/vector_uint4_sized.hpp \
   /usr/local/include/glm/common.hpp \
   /usr/local/include/glm/common.hpp \
+  /usr/local/include/glm/detail/type_mat3x3.hpp \
+  /usr/local/include/glm/detail/type_mat4x4.hpp \
+  /usr/local/include/glm/detail/type_vec3.hpp \
+  /usr/local/include/glm/detail/type_vec4.hpp \
   /usr/local/include/glm/exponential.hpp \
+  /usr/local/include/glm/ext/quaternion_common.hpp \
+  /usr/local/include/glm/ext/quaternion_geometric.hpp \
+  /usr/local/include/glm/ext/quaternion_relational.hpp \
+  /usr/local/include/glm/ext/vector_relational.hpp \
   /usr/local/include/glm/geometric.hpp \
+  /usr/local/include/glm/gtc/constants.hpp \
+  /usr/local/include/glm/gtc/matrix_transform.hpp \
   /usr/local/include/glm/matrix.hpp \
   /usr/local/include/glm/simd/platform.h \
+  /usr/local/include/glm/trigonometric.hpp \
   /usr/local/include/glm/vector_relational.hpp \
   /usr/local/include/glm/detail/compute_vector_relational.hpp \
   /usr/local/include/glm/detail/_fixes.hpp \
@@ -7752,6 +8286,7 @@ CMakeFiles/SENGINE2.dir/src/config.cpp.o: /Users/sennehawer/GitKraken\ Repositor
   /usr/local/include/glm/detail/type_mat4x2.inl \
   /usr/local/include/glm/detail/type_mat4x3.inl \
   /usr/local/include/glm/detail/type_mat4x4.inl \
+  /usr/local/include/glm/detail/type_quat.inl \
   /usr/local/include/glm/detail/type_vec1.hpp \
   /usr/local/include/glm/detail/type_vec1.inl \
   /usr/local/include/glm/detail/type_vec2.hpp \
@@ -7764,6 +8299,65 @@ CMakeFiles/SENGINE2.dir/src/config.cpp.o: /Users/sennehawer/GitKraken\ Repositor
   /usr/local/include/glm/fwd.hpp \
   /usr/local/include/glm/geometric.hpp \
   /usr/local/include/glm/glm.hpp \
+  /usr/local/include/glm/common.hpp \
+  /usr/local/include/glm/detail/qualifier.hpp \
+  /usr/local/include/glm/detail/setup.hpp \
+  /usr/local/include/glm/detail/type_mat3x3.hpp \
+  /usr/local/include/glm/detail/type_mat4x4.hpp \
+  /usr/local/include/glm/detail/type_vec3.hpp \
+  /usr/local/include/glm/detail/type_vec4.hpp \
+  /usr/local/include/glm/exponential.hpp \
+  /usr/local/include/glm/ext/matrix_clip_space.hpp \
+  /usr/local/include/glm/ext/matrix_projection.hpp \
+  /usr/local/include/glm/ext/matrix_transform.hpp \
+  /usr/local/include/glm/ext/quaternion_common.hpp \
+  /usr/local/include/glm/ext/quaternion_double.hpp \
+  /usr/local/include/glm/ext/quaternion_double_precision.hpp \
+  /usr/local/include/glm/ext/quaternion_float.hpp \
+  /usr/local/include/glm/ext/quaternion_float_precision.hpp \
+  /usr/local/include/glm/ext/quaternion_geometric.hpp \
+  /usr/local/include/glm/ext/quaternion_relational.hpp \
+  /usr/local/include/glm/ext/quaternion_transform.hpp \
+  /usr/local/include/glm/ext/quaternion_trigonometric.hpp \
+  /usr/local/include/glm/ext/scalar_constants.hpp \
+  /usr/local/include/glm/ext/vector_bool1.hpp \
+  /usr/local/include/glm/ext/vector_bool1_precision.hpp \
+  /usr/local/include/glm/ext/vector_double1.hpp \
+  /usr/local/include/glm/ext/vector_double1_precision.hpp \
+  /usr/local/include/glm/ext/vector_float1.hpp \
+  /usr/local/include/glm/ext/vector_float1_precision.hpp \
+  /usr/local/include/glm/ext/vector_int1.hpp \
+  /usr/local/include/glm/ext/vector_int1_sized.hpp \
+  /usr/local/include/glm/ext/vector_relational.hpp \
+  /usr/local/include/glm/ext/vector_uint1.hpp \
+  /usr/local/include/glm/ext/vector_uint1_sized.hpp \
+  /usr/local/include/glm/geometric.hpp \
+  /usr/local/include/glm/gtc/constants.hpp \
+  /usr/local/include/glm/gtc/matrix_transform.hpp \
+  /usr/local/include/glm/gtc/quaternion.hpp \
+  /usr/local/include/glm/gtc/vec1.hpp \
+  /usr/local/include/glm/mat2x2.hpp \
+  /usr/local/include/glm/mat2x3.hpp \
+  /usr/local/include/glm/mat2x4.hpp \
+  /usr/local/include/glm/mat3x2.hpp \
+  /usr/local/include/glm/mat3x3.hpp \
+  /usr/local/include/glm/mat3x4.hpp \
+  /usr/local/include/glm/mat4x2.hpp \
+  /usr/local/include/glm/mat4x3.hpp \
+  /usr/local/include/glm/mat4x4.hpp \
+  /usr/local/include/glm/matrix.hpp \
+  /usr/local/include/glm/trigonometric.hpp \
+  /usr/local/include/glm/vec2.hpp \
+  /usr/local/include/glm/vec3.hpp \
+  /usr/local/include/glm/vec4.hpp \
+  /usr/local/include/glm/vector_relational.hpp \
+  /usr/local/include/glm/gtc/constants.inl \
+  /usr/local/include/glm/gtc/epsilon.hpp \
+  /usr/local/include/glm/gtc/epsilon.inl \
+  /usr/local/include/glm/gtc/matrix_transform.inl \
+  /usr/local/include/glm/gtc/quaternion.inl \
+  /usr/local/include/glm/gtc/type_ptr.hpp \
+  /usr/local/include/glm/gtc/type_ptr.inl \
   /usr/local/include/glm/integer.hpp \
   /usr/local/include/glm/mat2x2.hpp \
   /usr/local/include/glm/mat2x3.hpp \
@@ -8703,7 +9297,10 @@ CMakeFiles/SENGINE2.dir/src/main.cpp.o: /Users/sennehawer/GitKraken\ Repository/
   /Users/sennehawer/GitKraken\ Repository/SENGINE2/src/TriangleMesh.h \
   /Users/sennehawer/GitKraken\ Repository/SENGINE2/src/Window.h \
   /Users/sennehawer/GitKraken\ Repository/SENGINE2/src/config.h \
+  /usr/local/include/glm/common.hpp \
+  /usr/local/include/glm/detail/qualifier.hpp \
   /usr/local/include/glm/detail/setup.hpp \
+  /usr/local/include/glm/detail/type_float.hpp \
   /usr/local/include/glm/detail/type_mat2x2.hpp \
   /usr/local/include/glm/detail/type_mat2x3.hpp \
   /usr/local/include/glm/detail/type_mat2x4.hpp \
@@ -8713,17 +9310,31 @@ CMakeFiles/SENGINE2.dir/src/main.cpp.o: /Users/sennehawer/GitKraken\ Repository/
   /usr/local/include/glm/detail/type_mat4x2.hpp \
   /usr/local/include/glm/detail/type_mat4x3.hpp \
   /usr/local/include/glm/detail/type_mat4x4.hpp \
+  /usr/local/include/glm/detail/type_quat.hpp \
+  /usr/local/include/glm/detail/type_vec1.hpp \
   /usr/local/include/glm/detail/type_vec2.hpp \
   /usr/local/include/glm/detail/type_vec3.hpp \
   /usr/local/include/glm/detail/type_vec4.hpp \
+  /usr/local/include/glm/exponential.hpp \
+  /usr/local/include/glm/ext/quaternion_geometric.hpp \
+  /usr/local/include/glm/ext/scalar_constants.hpp \
   /usr/local/include/glm/ext/scalar_int_sized.hpp \
   /usr/local/include/glm/ext/scalar_uint_sized.hpp \
+  /usr/local/include/glm/ext/vector_int1.hpp \
   /usr/local/include/glm/ext/vector_int2.hpp \
   /usr/local/include/glm/ext/vector_int3.hpp \
   /usr/local/include/glm/ext/vector_int4.hpp \
+  /usr/local/include/glm/ext/vector_relational.hpp \
+  /usr/local/include/glm/ext/vector_uint1.hpp \
   /usr/local/include/glm/ext/vector_uint2.hpp \
   /usr/local/include/glm/ext/vector_uint3.hpp \
   /usr/local/include/glm/ext/vector_uint4.hpp \
+  /usr/local/include/glm/geometric.hpp \
+  /usr/local/include/glm/gtc/constants.hpp \
+  /usr/local/include/glm/matrix.hpp \
+  /usr/local/include/glm/trigonometric.hpp \
+  /usr/local/include/glm/vector_relational.hpp \
+  /usr/local/include/glm/ext/matrix_clip_space.inl \
   /usr/local/include/glm/ext/matrix_double2x2.hpp \
   /usr/local/include/glm/ext/matrix_double2x2_precision.hpp \
   /usr/local/include/glm/ext/matrix_double2x3.hpp \
@@ -8760,6 +9371,15 @@ CMakeFiles/SENGINE2.dir/src/main.cpp.o: /Users/sennehawer/GitKraken\ Repository/
   /usr/local/include/glm/ext/matrix_float4x3_precision.hpp \
   /usr/local/include/glm/ext/matrix_float4x4.hpp \
   /usr/local/include/glm/ext/matrix_float4x4_precision.hpp \
+  /usr/local/include/glm/ext/matrix_projection.inl \
+  /usr/local/include/glm/ext/matrix_transform.inl \
+  /usr/local/include/glm/ext/quaternion_common.inl \
+  /usr/local/include/glm/ext/quaternion_geometric.inl \
+  /usr/local/include/glm/ext/quaternion_relational.inl \
+  /usr/local/include/glm/ext/quaternion_transform.inl \
+  /usr/local/include/glm/ext/quaternion_trigonometric.inl \
+  /usr/local/include/glm/ext/scalar_constants.hpp \
+  /usr/local/include/glm/ext/scalar_constants.inl \
   /usr/local/include/glm/ext/vector_bool2.hpp \
   /usr/local/include/glm/ext/vector_bool2_precision.hpp \
   /usr/local/include/glm/ext/vector_bool3.hpp \
@@ -8784,6 +9404,8 @@ CMakeFiles/SENGINE2.dir/src/main.cpp.o: /Users/sennehawer/GitKraken\ Repository/
   /usr/local/include/glm/ext/vector_int3_sized.hpp \
   /usr/local/include/glm/ext/vector_int4.hpp \
   /usr/local/include/glm/ext/vector_int4_sized.hpp \
+  /usr/local/include/glm/ext/vector_relational.hpp \
+  /usr/local/include/glm/ext/vector_relational.inl \
   /usr/local/include/glm/ext/vector_uint2.hpp \
   /usr/local/include/glm/ext/vector_uint2_sized.hpp \
   /usr/local/include/glm/ext/vector_uint3.hpp \
@@ -8792,10 +9414,21 @@ CMakeFiles/SENGINE2.dir/src/main.cpp.o: /Users/sennehawer/GitKraken\ Repository/
   /usr/local/include/glm/ext/vector_uint4_sized.hpp \
   /usr/local/include/glm/common.hpp \
   /usr/local/include/glm/common.hpp \
+  /usr/local/include/glm/detail/type_mat3x3.hpp \
+  /usr/local/include/glm/detail/type_mat4x4.hpp \
+  /usr/local/include/glm/detail/type_vec3.hpp \
+  /usr/local/include/glm/detail/type_vec4.hpp \
   /usr/local/include/glm/exponential.hpp \
+  /usr/local/include/glm/ext/quaternion_common.hpp \
+  /usr/local/include/glm/ext/quaternion_geometric.hpp \
+  /usr/local/include/glm/ext/quaternion_relational.hpp \
+  /usr/local/include/glm/ext/vector_relational.hpp \
   /usr/local/include/glm/geometric.hpp \
+  /usr/local/include/glm/gtc/constants.hpp \
+  /usr/local/include/glm/gtc/matrix_transform.hpp \
   /usr/local/include/glm/matrix.hpp \
   /usr/local/include/glm/simd/platform.h \
+  /usr/local/include/glm/trigonometric.hpp \
   /usr/local/include/glm/vector_relational.hpp \
   /usr/local/include/glm/detail/compute_vector_relational.hpp \
   /usr/local/include/glm/detail/_fixes.hpp \
@@ -8823,6 +9456,7 @@ CMakeFiles/SENGINE2.dir/src/main.cpp.o: /Users/sennehawer/GitKraken\ Repository/
   /usr/local/include/glm/detail/type_mat4x2.inl \
   /usr/local/include/glm/detail/type_mat4x3.inl \
   /usr/local/include/glm/detail/type_mat4x4.inl \
+  /usr/local/include/glm/detail/type_quat.inl \
   /usr/local/include/glm/detail/type_vec1.hpp \
   /usr/local/include/glm/detail/type_vec1.inl \
   /usr/local/include/glm/detail/type_vec2.hpp \
@@ -8835,6 +9469,65 @@ CMakeFiles/SENGINE2.dir/src/main.cpp.o: /Users/sennehawer/GitKraken\ Repository/
   /usr/local/include/glm/fwd.hpp \
   /usr/local/include/glm/geometric.hpp \
   /usr/local/include/glm/glm.hpp \
+  /usr/local/include/glm/common.hpp \
+  /usr/local/include/glm/detail/qualifier.hpp \
+  /usr/local/include/glm/detail/setup.hpp \
+  /usr/local/include/glm/detail/type_mat3x3.hpp \
+  /usr/local/include/glm/detail/type_mat4x4.hpp \
+  /usr/local/include/glm/detail/type_vec3.hpp \
+  /usr/local/include/glm/detail/type_vec4.hpp \
+  /usr/local/include/glm/exponential.hpp \
+  /usr/local/include/glm/ext/matrix_clip_space.hpp \
+  /usr/local/include/glm/ext/matrix_projection.hpp \
+  /usr/local/include/glm/ext/matrix_transform.hpp \
+  /usr/local/include/glm/ext/quaternion_common.hpp \
+  /usr/local/include/glm/ext/quaternion_double.hpp \
+  /usr/local/include/glm/ext/quaternion_double_precision.hpp \
+  /usr/local/include/glm/ext/quaternion_float.hpp \
+  /usr/local/include/glm/ext/quaternion_float_precision.hpp \
+  /usr/local/include/glm/ext/quaternion_geometric.hpp \
+  /usr/local/include/glm/ext/quaternion_relational.hpp \
+  /usr/local/include/glm/ext/quaternion_transform.hpp \
+  /usr/local/include/glm/ext/quaternion_trigonometric.hpp \
+  /usr/local/include/glm/ext/scalar_constants.hpp \
+  /usr/local/include/glm/ext/vector_bool1.hpp \
+  /usr/local/include/glm/ext/vector_bool1_precision.hpp \
+  /usr/local/include/glm/ext/vector_double1.hpp \
+  /usr/local/include/glm/ext/vector_double1_precision.hpp \
+  /usr/local/include/glm/ext/vector_float1.hpp \
+  /usr/local/include/glm/ext/vector_float1_precision.hpp \
+  /usr/local/include/glm/ext/vector_int1.hpp \
+  /usr/local/include/glm/ext/vector_int1_sized.hpp \
+  /usr/local/include/glm/ext/vector_relational.hpp \
+  /usr/local/include/glm/ext/vector_uint1.hpp \
+  /usr/local/include/glm/ext/vector_uint1_sized.hpp \
+  /usr/local/include/glm/geometric.hpp \
+  /usr/local/include/glm/gtc/constants.hpp \
+  /usr/local/include/glm/gtc/matrix_transform.hpp \
+  /usr/local/include/glm/gtc/quaternion.hpp \
+  /usr/local/include/glm/gtc/vec1.hpp \
+  /usr/local/include/glm/mat2x2.hpp \
+  /usr/local/include/glm/mat2x3.hpp \
+  /usr/local/include/glm/mat2x4.hpp \
+  /usr/local/include/glm/mat3x2.hpp \
+  /usr/local/include/glm/mat3x3.hpp \
+  /usr/local/include/glm/mat3x4.hpp \
+  /usr/local/include/glm/mat4x2.hpp \
+  /usr/local/include/glm/mat4x3.hpp \
+  /usr/local/include/glm/mat4x4.hpp \
+  /usr/local/include/glm/matrix.hpp \
+  /usr/local/include/glm/trigonometric.hpp \
+  /usr/local/include/glm/vec2.hpp \
+  /usr/local/include/glm/vec3.hpp \
+  /usr/local/include/glm/vec4.hpp \
+  /usr/local/include/glm/vector_relational.hpp \
+  /usr/local/include/glm/gtc/constants.inl \
+  /usr/local/include/glm/gtc/epsilon.hpp \
+  /usr/local/include/glm/gtc/epsilon.inl \
+  /usr/local/include/glm/gtc/matrix_transform.inl \
+  /usr/local/include/glm/gtc/quaternion.inl \
+  /usr/local/include/glm/gtc/type_ptr.hpp \
+  /usr/local/include/glm/gtc/type_ptr.inl \
   /usr/local/include/glm/integer.hpp \
   /usr/local/include/glm/mat2x2.hpp \
   /usr/local/include/glm/mat2x3.hpp \
@@ -8872,6 +9565,14 @@ CMakeFiles/SENGINE2.dir/src/main.cpp.o: /Users/sennehawer/GitKraken\ Repository/
 
 /Users/sennehawer/GitKraken\ Repository/SENGINE2/src/Scene.cpp:
 
+/Users/sennehawer/GitKraken\ Repository/SENGINE2/src/Renderer.cpp:
+
+/Users/sennehawer/GitKraken\ Repository/SENGINE2/src/RenderSystem.cpp:
+
+/Users/sennehawer/GitKraken\ Repository/SENGINE2/src/stb_image.h:
+
+/usr/local/include/glm/packing.hpp:
+
 /Users/sennehawer/GitKraken\ Repository/SENGINE2/src/glad.c:
 
 /usr/local/include/glm/gtc/type_ptr.inl:
@@ -8879,6 +9580,18 @@ CMakeFiles/SENGINE2.dir/src/main.cpp.o: /Users/sennehawer/GitKraken\ Repository/
 /usr/local/include/glm/gtc/quaternion.inl:
 
 /usr/local/include/glm/gtc/constants.inl:
+
+/usr/local/include/glm/vec2.hpp:
+
+/usr/local/include/glm/mat4x3.hpp:
+
+/usr/local/include/glm/mat3x4.hpp:
+
+/usr/local/include/glm/mat3x3.hpp:
+
+/usr/local/include/glm/mat2x4.hpp:
+
+/usr/local/include/glm/mat2x3.hpp:
 
 /usr/local/include/glm/gtc/vec1.hpp:
 
@@ -8900,52 +9613,6 @@ CMakeFiles/SENGINE2.dir/src/main.cpp.o: /Users/sennehawer/GitKraken\ Repository/
 
 /usr/local/include/glm/ext/matrix_clip_space.hpp:
 
-/usr/local/include/glm/detail/type_quat.inl:
-
-/usr/local/include/glm/gtc/matrix_transform.hpp:
-
-/usr/local/include/glm/ext/quaternion_relational.hpp:
-
-/usr/local/include/glm/ext/vector_relational.inl:
-
-/usr/local/include/glm/ext/scalar_constants.inl:
-
-/usr/local/include/glm/ext/quaternion_trigonometric.inl:
-
-/usr/local/include/glm/ext/quaternion_relational.inl:
-
-/usr/local/include/glm/ext/matrix_transform.inl:
-
-/usr/local/include/glm/ext/matrix_clip_space.inl:
-
-/usr/local/include/glm/detail/type_float.hpp:
-
-/Users/sennehawer/GitKraken\ Repository/SENGINE2/src/Renderer.cpp:
-
-/Users/sennehawer/GitKraken\ Repository/SENGINE2/src/RenderSystem.cpp:
-
-/Users/sennehawer/GitKraken\ Repository/SENGINE2/src/stb_image.h:
-
-/usr/local/include/glm/vec2.hpp:
-
-/usr/local/include/glm/trigonometric.hpp:
-
-/usr/local/include/glm/packing.hpp:
-
-/usr/local/include/glm/mat4x3.hpp:
-
-/usr/local/include/glm/mat3x4.hpp:
-
-/usr/local/include/glm/mat3x3.hpp:
-
-/usr/local/include/glm/mat2x4.hpp:
-
-/usr/local/include/glm/mat2x3.hpp:
-
-/usr/local/include/glm/ext/vector_uint1.hpp:
-
-/usr/local/include/glm/integer.hpp:
-
 /usr/local/include/glm/glm.hpp:
 
 /usr/local/include/glm/detail/type_vec4.inl:
@@ -8956,7 +9623,7 @@ CMakeFiles/SENGINE2.dir/src/main.cpp.o: /Users/sennehawer/GitKraken\ Repository/
 
 /usr/local/include/glm/detail/type_vec2.inl:
 
-/usr/local/include/glm/detail/type_vec1.hpp:
+/usr/local/include/glm/detail/type_quat.inl:
 
 /usr/local/include/glm/detail/type_mat4x2.inl:
 
@@ -8974,8 +9641,6 @@ CMakeFiles/SENGINE2.dir/src/main.cpp.o: /Users/sennehawer/GitKraken\ Repository/
 
 /usr/local/include/glm/detail/type_half.hpp:
 
-/usr/local/include/glm/detail/qualifier.hpp:
-
 /usr/local/include/glm/detail/func_vector_relational.inl:
 
 /usr/local/include/glm/detail/func_matrix.inl:
@@ -8988,15 +9653,15 @@ CMakeFiles/SENGINE2.dir/src/main.cpp.o: /Users/sennehawer/GitKraken\ Repository/
 
 /usr/local/include/glm/simd/platform.h:
 
-/usr/local/include/glm/matrix.hpp:
+/usr/local/include/glm/gtc/matrix_transform.hpp:
 
-/usr/local/include/glm/exponential.hpp:
-
-/usr/local/include/glm/common.hpp:
+/usr/local/include/glm/ext/quaternion_relational.hpp:
 
 /usr/local/include/glm/ext/vector_uint4_sized.hpp:
 
 /usr/local/include/glm/ext/vector_uint2_sized.hpp:
+
+/usr/local/include/glm/ext/vector_relational.inl:
 
 /usr/local/include/glm/gtc/epsilon.inl:
 
@@ -9019,6 +9684,14 @@ CMakeFiles/SENGINE2.dir/src/main.cpp.o: /Users/sennehawer/GitKraken\ Repository/
 /usr/local/include/glm/ext/vector_bool4_precision.hpp:
 
 /usr/local/include/glm/ext/vector_bool2.hpp:
+
+/usr/local/include/glm/ext/scalar_constants.inl:
+
+/usr/local/include/glm/ext/quaternion_trigonometric.inl:
+
+/usr/local/include/glm/ext/quaternion_relational.inl:
+
+/usr/local/include/glm/ext/matrix_transform.inl:
 
 /usr/local/include/glm/ext/matrix_float4x3.hpp:
 
@@ -9062,9 +9735,19 @@ CMakeFiles/SENGINE2.dir/src/main.cpp.o: /Users/sennehawer/GitKraken\ Repository/
 
 /usr/local/include/glm/ext/matrix_double2x2.hpp:
 
+/usr/local/include/glm/ext/matrix_clip_space.inl:
+
+/usr/local/include/glm/trigonometric.hpp:
+
+/usr/local/include/glm/matrix.hpp:
+
 /usr/local/include/glm/ext/vector_uint4.hpp:
 
 /usr/local/include/glm/ext/vector_uint2.hpp:
+
+/usr/local/include/glm/integer.hpp:
+
+/usr/local/include/glm/ext/vector_uint1.hpp:
 
 /usr/local/include/glm/ext/vector_int3.hpp:
 
@@ -9072,9 +9755,13 @@ CMakeFiles/SENGINE2.dir/src/main.cpp.o: /Users/sennehawer/GitKraken\ Repository/
 
 /usr/local/include/glm/ext/scalar_int_sized.hpp:
 
+/usr/local/include/glm/exponential.hpp:
+
 /usr/local/include/glm/detail/type_vec3.hpp:
 
 /usr/local/include/glm/detail/type_vec2.hpp:
+
+/usr/local/include/glm/detail/type_vec1.hpp:
 
 /usr/local/include/glm/detail/type_mat4x4.hpp:
 
@@ -9089,6 +9776,12 @@ CMakeFiles/SENGINE2.dir/src/main.cpp.o: /Users/sennehawer/GitKraken\ Repository/
 /usr/local/include/glm/detail/type_mat2x4.hpp:
 
 /usr/local/include/glm/detail/type_mat2x2.hpp:
+
+/usr/local/include/glm/detail/type_float.hpp:
+
+/usr/local/include/glm/detail/qualifier.hpp:
+
+/usr/local/include/glm/common.hpp:
 
 /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/mmintrin.h:
 

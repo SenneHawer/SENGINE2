@@ -14,7 +14,7 @@ void Scene::Init(){
 
 void Scene::Update(){
     //transform system update
-    
+
 }
 
 const entt::registry& Scene::GetRegistry(){

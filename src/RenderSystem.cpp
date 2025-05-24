@@ -9,5 +9,5 @@ void RenderSystem::Render(const entt::registry& registry, Renderer& renderer){
 
         renderer.Render();
     }
-    renderer.Render(); //delete once ecs is working
+    //renderer.Render(); //delete once ecs is working
 }
