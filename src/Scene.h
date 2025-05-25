@@ -1,3 +1,4 @@
+#pragma once
 #include "config.h"
 
 class Renderer;
@@ -16,7 +17,6 @@ class Scene{
         const entt::registry& GetRegistry();
 
     private:
-
         entt::registry m_registry;
 
     //test

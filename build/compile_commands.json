@@ -64,5 +64,29 @@
   "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I\"/Users/sennehawer/GitKraken Repository/SENGINE2/dependencies\" -I\"/Users/sennehawer/GitKraken Repository/SENGINE2/glm\" -I\"/Users/sennehawer/GitKraken Repository/SENGINE2/dependencies/entt/single_include\" -isystem /usr/local/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fsanitize=address -g -o CMakeFiles/SENGINE2.dir/src/RenderSystem.cpp.o -c \"/Users/sennehawer/GitKraken Repository/SENGINE2/src/RenderSystem.cpp\"",
   "file": "/Users/sennehawer/GitKraken Repository/SENGINE2/src/RenderSystem.cpp",
   "output": "CMakeFiles/SENGINE2.dir/src/RenderSystem.cpp.o"
+},
+{
+  "directory": "/Users/sennehawer/GitKraken Repository/SENGINE2/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I\"/Users/sennehawer/GitKraken Repository/SENGINE2/dependencies\" -I\"/Users/sennehawer/GitKraken Repository/SENGINE2/glm\" -I\"/Users/sennehawer/GitKraken Repository/SENGINE2/dependencies/entt/single_include\" -isystem /usr/local/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fsanitize=address -g -o CMakeFiles/SENGINE2.dir/src/Model.cpp.o -c \"/Users/sennehawer/GitKraken Repository/SENGINE2/src/Model.cpp\"",
+  "file": "/Users/sennehawer/GitKraken Repository/SENGINE2/src/Model.cpp",
+  "output": "CMakeFiles/SENGINE2.dir/src/Model.cpp.o"
+},
+{
+  "directory": "/Users/sennehawer/GitKraken Repository/SENGINE2/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I\"/Users/sennehawer/GitKraken Repository/SENGINE2/dependencies\" -I\"/Users/sennehawer/GitKraken Repository/SENGINE2/glm\" -I\"/Users/sennehawer/GitKraken Repository/SENGINE2/dependencies/entt/single_include\" -isystem /usr/local/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fsanitize=address -g -o CMakeFiles/SENGINE2.dir/src/Mesh.cpp.o -c \"/Users/sennehawer/GitKraken Repository/SENGINE2/src/Mesh.cpp\"",
+  "file": "/Users/sennehawer/GitKraken Repository/SENGINE2/src/Mesh.cpp",
+  "output": "CMakeFiles/SENGINE2.dir/src/Mesh.cpp.o"
+},
+{
+  "directory": "/Users/sennehawer/GitKraken Repository/SENGINE2/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I\"/Users/sennehawer/GitKraken Repository/SENGINE2/dependencies\" -I\"/Users/sennehawer/GitKraken Repository/SENGINE2/glm\" -I\"/Users/sennehawer/GitKraken Repository/SENGINE2/dependencies/entt/single_include\" -isystem /usr/local/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fsanitize=address -g -o CMakeFiles/SENGINE2.dir/src/components/ModelComponent.cpp.o -c \"/Users/sennehawer/GitKraken Repository/SENGINE2/src/components/ModelComponent.cpp\"",
+  "file": "/Users/sennehawer/GitKraken Repository/SENGINE2/src/components/ModelComponent.cpp",
+  "output": "CMakeFiles/SENGINE2.dir/src/components/ModelComponent.cpp.o"
+},
+{
+  "directory": "/Users/sennehawer/GitKraken Repository/SENGINE2/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I\"/Users/sennehawer/GitKraken Repository/SENGINE2/dependencies\" -I\"/Users/sennehawer/GitKraken Repository/SENGINE2/glm\" -I\"/Users/sennehawer/GitKraken Repository/SENGINE2/dependencies/entt/single_include\" -isystem /usr/local/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fsanitize=address -g -o CMakeFiles/SENGINE2.dir/src/components/TransformComponent.cpp.o -c \"/Users/sennehawer/GitKraken Repository/SENGINE2/src/components/TransformComponent.cpp\"",
+  "file": "/Users/sennehawer/GitKraken Repository/SENGINE2/src/components/TransformComponent.cpp",
+  "output": "CMakeFiles/SENGINE2.dir/src/components/TransformComponent.cpp.o"
 }
 ]

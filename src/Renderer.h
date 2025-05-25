@@ -3,18 +3,21 @@
 #include "Material.h"
 #include "Window.h"
 
+class Model;
+
 class Renderer{
     public:
         Renderer();
         ~Renderer();
 
         void Init( const Window& window);
-        void Render(glm::mat4 modelMatrix);
-
+        void RenderBeginFrame();
+        void Render(const glm::mat4& modelMatrix, const Model& model);
+        void RenderEndFrame();
     private:
         unsigned int m_shader;
 
-        TriangleMesh* m_pTriangle;
+        //TriangleMesh* m_pTriangle;
         Material* m_pMaterial;
         Material* m_pMask;
 

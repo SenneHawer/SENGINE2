@@ -956,7 +956,7 @@ CMakeFiles/SENGINE2.dir/src/Material.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__tree \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/set \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/unordered_set \
-  /Users/sennehawer/GitKraken\ Repository/SENGINE2/dependencies/components.hpp \
+  /Users/sennehawer/GitKraken\ Repository/SENGINE2/src/components.hpp \
   /usr/local/include/glm/gtc/type_ptr.hpp \
   /usr/local/include/glm/gtc/../gtc/quaternion.hpp \
   /usr/local/include/glm/gtc/../gtc/constants.hpp \

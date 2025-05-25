@@ -1,5 +1,6 @@
 #include "Renderer.h"
 #include <glm/gtc/type_ptr.hpp>
+#include "Model.h"
 
 Renderer::Renderer(){
 
@@ -7,8 +8,8 @@ Renderer::Renderer(){
 
 Renderer::~Renderer(){
     glDeleteShader(m_shader);
-    delete m_pTriangle;
-    m_pTriangle = nullptr;
+    //delete m_pTriangle;
+    //m_pTriangle = nullptr;
     delete m_pMaterial;
     m_pMaterial = nullptr;
     delete m_pMask;
@@ -35,23 +36,23 @@ void Renderer::Init(const Window& window){
     glDisable(GL_CULL_FACE);
     glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
 
-    m_pTriangle = new TriangleMesh();
+    //m_pTriangle = new TriangleMesh();
     m_pMaterial = new Material("img/texture.png");
     m_pMask = new Material("img/vignette.png");
 
     m_aspectRatio = window.GetAspectRatio();
 }
 
-void Renderer::Render(glm::mat4 modelMatrix){
+void Renderer::Render(const glm::mat4& modelMatrix, const Model& model){
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
     glUseProgram(m_shader);
 
-    
-    modelMatrix = glm::rotate(modelMatrix, (float)glfwGetTime(), glm::vec3(0.0f, 0.0f, 1.0f)); //
+    glm::mat4 newModelMatrix = modelMatrix;
+    newModelMatrix = glm::rotate(newModelMatrix, (float)glfwGetTime(), glm::vec3(0.0f, 0.0f, 1.0f)); //
 
     unsigned int modelLocation = glGetUniformLocation(m_shader, "model");
-    glUniformMatrix4fv(modelLocation, 1, GL_FALSE, glm::value_ptr(modelMatrix));
+    glUniformMatrix4fv(modelLocation, 1, GL_FALSE, glm::value_ptr(newModelMatrix));
 
     glm::vec3 camPos = glm::vec3(5.0f, 0.0f, 3.0f);
     glm::vec3 camTarget = glm::vec3(0.0f, 0.0f, 0.0f);
@@ -74,8 +75,22 @@ void Renderer::Render(glm::mat4 modelMatrix){
     //DRAW OBJECTS
     m_pMaterial->Use(0);
     m_pMask->Use(1);
-    m_pTriangle->Draw();
+    //m_pTriangle->Draw();
 
+    //draw model
+
+    model.Draw();
+}
+
+void Renderer::RenderBeginFrame(){
+    glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+}
+
+void Renderer::RenderEndFrame(){
+    //swap buffers, etc.
+    //glfwSwapBuffers(m_window);
+    //glfwPollEvents();
+    glFlush();
 }
 
 unsigned int Renderer::make_shader(const std::string& vertex_filepath, const std::string& fragment_filepath){

@@ -201,6 +201,54 @@ src/Material.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SENGINE2.dir/build.make CMakeFiles/SENGINE2.dir/src/Material.cpp.s
 .PHONY : src/Material.cpp.s
 
+src/Mesh.o: src/Mesh.cpp.o
+.PHONY : src/Mesh.o
+
+# target to build an object file
+src/Mesh.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SENGINE2.dir/build.make CMakeFiles/SENGINE2.dir/src/Mesh.cpp.o
+.PHONY : src/Mesh.cpp.o
+
+src/Mesh.i: src/Mesh.cpp.i
+.PHONY : src/Mesh.i
+
+# target to preprocess a source file
+src/Mesh.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SENGINE2.dir/build.make CMakeFiles/SENGINE2.dir/src/Mesh.cpp.i
+.PHONY : src/Mesh.cpp.i
+
+src/Mesh.s: src/Mesh.cpp.s
+.PHONY : src/Mesh.s
+
+# target to generate assembly for a file
+src/Mesh.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SENGINE2.dir/build.make CMakeFiles/SENGINE2.dir/src/Mesh.cpp.s
+.PHONY : src/Mesh.cpp.s
+
+src/Model.o: src/Model.cpp.o
+.PHONY : src/Model.o
+
+# target to build an object file
+src/Model.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SENGINE2.dir/build.make CMakeFiles/SENGINE2.dir/src/Model.cpp.o
+.PHONY : src/Model.cpp.o
+
+src/Model.i: src/Model.cpp.i
+.PHONY : src/Model.i
+
+# target to preprocess a source file
+src/Model.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SENGINE2.dir/build.make CMakeFiles/SENGINE2.dir/src/Model.cpp.i
+.PHONY : src/Model.cpp.i
+
+src/Model.s: src/Model.cpp.s
+.PHONY : src/Model.s
+
+# target to generate assembly for a file
+src/Model.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SENGINE2.dir/build.make CMakeFiles/SENGINE2.dir/src/Model.cpp.s
+.PHONY : src/Model.cpp.s
+
 src/RenderSystem.o: src/RenderSystem.cpp.o
 .PHONY : src/RenderSystem.o
 
@@ -321,6 +369,54 @@ src/Window.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SENGINE2.dir/build.make CMakeFiles/SENGINE2.dir/src/Window.cpp.s
 .PHONY : src/Window.cpp.s
 
+src/components/ModelComponent.o: src/components/ModelComponent.cpp.o
+.PHONY : src/components/ModelComponent.o
+
+# target to build an object file
+src/components/ModelComponent.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SENGINE2.dir/build.make CMakeFiles/SENGINE2.dir/src/components/ModelComponent.cpp.o
+.PHONY : src/components/ModelComponent.cpp.o
+
+src/components/ModelComponent.i: src/components/ModelComponent.cpp.i
+.PHONY : src/components/ModelComponent.i
+
+# target to preprocess a source file
+src/components/ModelComponent.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SENGINE2.dir/build.make CMakeFiles/SENGINE2.dir/src/components/ModelComponent.cpp.i
+.PHONY : src/components/ModelComponent.cpp.i
+
+src/components/ModelComponent.s: src/components/ModelComponent.cpp.s
+.PHONY : src/components/ModelComponent.s
+
+# target to generate assembly for a file
+src/components/ModelComponent.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SENGINE2.dir/build.make CMakeFiles/SENGINE2.dir/src/components/ModelComponent.cpp.s
+.PHONY : src/components/ModelComponent.cpp.s
+
+src/components/TransformComponent.o: src/components/TransformComponent.cpp.o
+.PHONY : src/components/TransformComponent.o
+
+# target to build an object file
+src/components/TransformComponent.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SENGINE2.dir/build.make CMakeFiles/SENGINE2.dir/src/components/TransformComponent.cpp.o
+.PHONY : src/components/TransformComponent.cpp.o
+
+src/components/TransformComponent.i: src/components/TransformComponent.cpp.i
+.PHONY : src/components/TransformComponent.i
+
+# target to preprocess a source file
+src/components/TransformComponent.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SENGINE2.dir/build.make CMakeFiles/SENGINE2.dir/src/components/TransformComponent.cpp.i
+.PHONY : src/components/TransformComponent.cpp.i
+
+src/components/TransformComponent.s: src/components/TransformComponent.cpp.s
+.PHONY : src/components/TransformComponent.s
+
+# target to generate assembly for a file
+src/components/TransformComponent.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SENGINE2.dir/build.make CMakeFiles/SENGINE2.dir/src/components/TransformComponent.cpp.s
+.PHONY : src/components/TransformComponent.cpp.s
+
 src/config.o: src/config.cpp.o
 .PHONY : src/config.o
 
@@ -411,6 +507,12 @@ help:
 	@echo "... src/Material.o"
 	@echo "... src/Material.i"
 	@echo "... src/Material.s"
+	@echo "... src/Mesh.o"
+	@echo "... src/Mesh.i"
+	@echo "... src/Mesh.s"
+	@echo "... src/Model.o"
+	@echo "... src/Model.i"
+	@echo "... src/Model.s"
 	@echo "... src/RenderSystem.o"
 	@echo "... src/RenderSystem.i"
 	@echo "... src/RenderSystem.s"
@@ -426,6 +528,12 @@ help:
 	@echo "... src/Window.o"
 	@echo "... src/Window.i"
 	@echo "... src/Window.s"
+	@echo "... src/components/ModelComponent.o"
+	@echo "... src/components/ModelComponent.i"
+	@echo "... src/components/ModelComponent.s"
+	@echo "... src/components/TransformComponent.o"
+	@echo "... src/components/TransformComponent.i"
+	@echo "... src/components/TransformComponent.s"
 	@echo "... src/config.o"
 	@echo "... src/config.i"
 	@echo "... src/config.s"

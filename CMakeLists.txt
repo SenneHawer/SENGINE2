@@ -23,14 +23,23 @@ add_executable(SENGINE2
     src/Scene.cpp
     src/Entity.cpp
     src/RenderSystem.cpp
+    src/Model.h
+    src/Model.cpp
+    src/Mesh.h
+    src/Mesh.cpp
+    src/components/ModelComponent.h
+    src/components/ModelComponent.cpp
+    src/components/TransformComponent.h
+    src/components/TransformComponent.cpp
     )
 
 find_package(glm REQUIRED)
 target_include_directories(SENGINE2 PRIVATE dependencies glm)
 
 find_package(glfw3 REQUIRED)
+find_package(assimp REQUIRED)
 
-target_link_libraries(SENGINE2 glfw OpenGL::GL) 
+target_link_libraries(SENGINE2 glfw OpenGL::GL assimp::assimp) 
 
 target_compile_options(SENGINE2 PRIVATE -fsanitize=address -g)
 target_link_options(SENGINE2 PRIVATE -fsanitize=address)

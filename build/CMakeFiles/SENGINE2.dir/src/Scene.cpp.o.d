@@ -956,7 +956,7 @@ CMakeFiles/SENGINE2.dir/src/Scene.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__tree \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/set \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/unordered_set \
-  /Users/sennehawer/GitKraken\ Repository/SENGINE2/dependencies/components.hpp \
+  /Users/sennehawer/GitKraken\ Repository/SENGINE2/src/components.hpp \
   /usr/local/include/glm/gtc/type_ptr.hpp \
   /usr/local/include/glm/gtc/../gtc/quaternion.hpp \
   /usr/local/include/glm/gtc/../gtc/constants.hpp \
@@ -1075,4 +1075,30 @@ CMakeFiles/SENGINE2.dir/src/Scene.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/path_iterator.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/u8path.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/sstream
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/sstream \
+  /Users/sennehawer/GitKraken\ Repository/SENGINE2/src/components/ModelComponent.h \
+  /Users/sennehawer/GitKraken\ Repository/SENGINE2/src/components/../config.h \
+  /Users/sennehawer/GitKraken\ Repository/SENGINE2/src/Model.h \
+  /usr/local/include/assimp/Importer.hpp \
+  /usr/local/include/assimp/types.h /usr/local/include/assimp/defs.h \
+  /usr/local/include/assimp/config.h /usr/local/include/assimp/vector2.h \
+  /usr/local/include/assimp/vector3.h /usr/local/include/assimp/color4.h \
+  /usr/local/include/assimp/matrix3x3.h \
+  /usr/local/include/assimp/matrix4x4.h \
+  /usr/local/include/assimp/quaternion.h \
+  /usr/local/include/assimp/vector2.inl \
+  /usr/local/include/assimp/vector3.inl \
+  /usr/local/include/assimp/color4.inl \
+  /usr/local/include/assimp/matrix3x3.inl \
+  /usr/local/include/assimp/matrix4x4.inl \
+  /usr/local/include/assimp/MathFunctions.h \
+  /usr/local/include/assimp/quaternion.inl \
+  /usr/local/include/assimp/scene.h /usr/local/include/assimp/texture.h \
+  /usr/local/include/assimp/./Compiler/pushpack1.h \
+  /usr/local/include/assimp/./Compiler/poppack1.h \
+  /usr/local/include/assimp/mesh.h /usr/local/include/assimp/aabb.h \
+  /usr/local/include/assimp/light.h /usr/local/include/assimp/camera.h \
+  /usr/local/include/assimp/material.h \
+  /usr/local/include/assimp/material.inl \
+  /usr/local/include/assimp/anim.h /usr/local/include/assimp/metadata.h \
+  /usr/local/include/assimp/postprocess.h
