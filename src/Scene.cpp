@@ -28,9 +28,8 @@ void Scene::createEntities(){
     auto& transform = m_registry.emplace<TransformComponent>(entity);
     transform.position = glm::vec3(0.0f, 0.0f, 0.0f);
     transform.rotation = glm::vec3(0.0f, 0.0f, 0.0f);
-    transform.scale = glm::vec3(100.0f, 100.0f, 100.0f);
+    transform.scale = glm::vec3(1.0f, 1.0f, 1.0f);
 
-    //ModelComponent& model = m_registry.emplace<ModelComponent>(entity);
-    //model.SetModel(std::make_shared<Model>("models/girl.obj"));
+    ModelComponent& model = m_registry.emplace<ModelComponent>(entity, std::make_shared<Model>("models/girl.obj"));
 }
 

@@ -5,17 +5,11 @@ class Model;
 
 class ModelComponent{
     public:
-        ModelComponent() = default;
-        ~ModelComponent() = default;
+        ModelComponent(std::shared_ptr<Model> m_pModel);
+        ~ModelComponent();
 
-        void SetModel(const std::shared_ptr<Model>& pModel) {
-            m_pModel = pModel;
-        }
-
-        std::shared_ptr<Model> GetModel() const {
-            return m_pModel;
-        }
+        std::shared_ptr<Model> GetModel() const;
 
     private:
-        std::shared_ptr<Model> m_pModel;      
+        std::shared_ptr<Model> m_pModel;  
 };

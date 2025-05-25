@@ -14,7 +14,7 @@ Model::~Model() {
 
 void Model::Draw() const{
     for (const auto& mesh : m_meshList) {
-        mesh.Draw();
+        mesh->Draw();
     }
     //m_pTriangleMesh->Draw(); // Draw the triangle mesh for testing
 }
@@ -44,7 +44,7 @@ void Model::ProcessNode(aiNode* node, const aiScene* scene) {
     }
 }
 
-Mesh Model::ProcessMesh(aiMesh* mesh, const aiScene* scene) {
+std::unique_ptr<Mesh> Model::ProcessMesh(aiMesh* mesh, const aiScene* scene) {
     std::vector<Vertex> vertices;
     std::vector<unsigned int> indices;
 
@@ -68,5 +68,6 @@ Mesh Model::ProcessMesh(aiMesh* mesh, const aiScene* scene) {
             indices.push_back(face.mIndices[j]);
         }
     }
-    return Mesh(vertices, indices);
+    std::unique_ptr<Mesh> meshPtr = std::make_unique<Mesh>(vertices, indices);
+    return meshPtr;
 }

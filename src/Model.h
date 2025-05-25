@@ -16,12 +16,12 @@ class Model{
         void Draw() const;
 
     private:
-        std::vector<Mesh> m_meshList;
+        std::vector<std::unique_ptr<Mesh>> m_meshList;
         std::string m_directory;
 
         //TriangleMesh* m_pTriangleMesh; //to test
 
         void LoadModel(const std::string& modelPath);
         void ProcessNode(aiNode* node, const aiScene* scene);
-        Mesh ProcessMesh(aiMesh* mesh, const aiScene* scene);
+        std::unique_ptr<Mesh> ProcessMesh(aiMesh* mesh, const aiScene* scene);
 };

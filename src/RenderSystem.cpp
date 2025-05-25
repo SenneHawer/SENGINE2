@@ -6,12 +6,12 @@
 void RenderSystem::Render(const entt::registry& registry, Renderer& renderer){
     renderer.RenderBeginFrame();
 
-    auto view = registry.view<TransformComponent/*, ModelComponent*/>();
+    auto view = registry.view<TransformComponent, ModelComponent>();
     
-    view.each([&renderer](const TransformComponent& transform/*, const ModelComponent& model*/) {
+    view.each([&renderer](const TransformComponent& transform, const ModelComponent& model) {
         glm::mat4 modelMatrix = transform.GetModelMatrix();
 
-        //renderer.Render(modelMatrix, *model.GetModel());
+        renderer.Render(modelMatrix, *model.GetModel());
     });
 
     renderer.RenderEndFrame();

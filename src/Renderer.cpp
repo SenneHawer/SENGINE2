@@ -12,8 +12,8 @@ Renderer::~Renderer(){
     //m_pTriangle = nullptr;
     delete m_pMaterial;
     m_pMaterial = nullptr;
-    delete m_pMask;
-    m_pMask = nullptr;
+    //delete m_pMask;
+    //m_pMask = nullptr;
 }
 
 void Renderer::Init(const Window& window){
@@ -28,7 +28,7 @@ void Renderer::Init(const Window& window){
 
     glUseProgram(m_shader);
     glUniform1i(glGetUniformLocation(m_shader, "material"), 0); 
-    glUniform1i(glGetUniformLocation(m_shader, "mask"), 1); 
+    //glUniform1i(glGetUniformLocation(m_shader, "mask"), 1); 
 
     //enable blending
     glEnable(GL_BLEND);
@@ -37,8 +37,8 @@ void Renderer::Init(const Window& window){
     glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
 
     //m_pTriangle = new TriangleMesh();
-    m_pMaterial = new Material("img/texture.png");
-    m_pMask = new Material("img/vignette.png");
+    m_pMaterial = new Material("img/stargirl.png");
+    //m_pMask = new Material("img/vignette.png");
 
     m_aspectRatio = window.GetAspectRatio();
 }
@@ -74,7 +74,7 @@ void Renderer::Render(const glm::mat4& modelMatrix, const Model& model){
 
     //DRAW OBJECTS
     m_pMaterial->Use(0);
-    m_pMask->Use(1);
+    //m_pMask->Use(1);
     //m_pTriangle->Draw();
 
     //draw model
